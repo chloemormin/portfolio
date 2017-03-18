@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+
+img{
+    display:inline-block; /*pour enlever la marge de l'image*/
+}
+
+a, address {
+    text-decoration-line: none;
+    text-decoration: none;
+    font-style:normal;
+    color:black;
+}

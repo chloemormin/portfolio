@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Portfolio Chloé Mormin </title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ceci est mon portfolio">
+    <meta name="keywords" content="portfolio, graphiste, UI designer">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="images/faviconCM.png" rel="icon" type="image/png"> </head>
+
+<body>
+    <header class="hero" id="haut"> <img src="images/logoCM.png">
+        <h1>Chloé Mormin</h1>
+        
+        <nav>
+            <a href="#a-propos"> À propos</a>
+            <a href="#projets"> Projets</a>
+            <a href="#contact"> Contact</a>
+        </nav>
+        <h2 >UI Designer</h2>
+        <h3>Graphisme &amp; webdesign</h3> <img src="images/fond-plus2.png" alt="Image qui suit la souris" id="image_suit_souris"> </header>
+    
+    <div class="a-propos">
+        <div class="titres">
+            <h4 id="a-propos">A propos</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate diam venenatis libero pharetra accumsan. Phasellus at laoreet erat. Fusce condimentum vestibulum est, sed tincidunt quam commodo non. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer laoreet congue blandit. Phasellus eu consectetur mauris.</p>
+        </div>
+    </div>
+    <a href="les-parcelles.html">
+        <div class="les-parcelles" id="projets">
+            <div class="titres">
+                <h4><span class="plus">+&nbsp;</span><span class="encadre">Les parcelles</span></h4>
+                <h5><span>Espace de coworking</span></h5> </div>
+        </div>
+    </a>
+    <a href="chateau-grand-peyrou.html">
+        <div class="chateau-grand-peyrou">
+            <div class="titres">
+                <h4><span>Château Grand Peyrou</span></h4>
+                <h5><span>Vins</span></h5> </div>
+        </div>
+    </a>
+    <a href="chateau-lejay.html">
+        <div class="chateau-lejay">
+            <div class="titres">
+                <h4><span>Château Lejay</span></h4>
+                <h5><span>Crème de Cassis</span></h5> </div>
+        </div>
+    </a>
+    <a href="encre-des-coteaux.html">
+        <div class="encre-des-coteaux" >
+            <div class="titres">
+                <h4><span>Encre des coteaux</span></h4>
+                <h5><span>Concours d'écriture</span></h5> </div>
+        </div>
+    </a>
+    <a href="photos.html">
+        <div class="photos">
+            <div class="titres">
+                <h4><span>Photographies</span></h4>
+                <h5><span>Macro-photographie</span></h5> </div>
+        </div>
+    </a>
+    <div class="contact" id="contact">
+        <h4>Contact</h4>
+        <h5>Chloé Mormin</h5> <a href="mailto:chloe.mormin@gmail.com">chloe.mormin@gmail.com</a> <a href="tel:+33102030405">06.08.65.73.68</a> <address>18, rue Edouard Herriot
+                <br/>33310 Lormont </address> <img src="images/logoCM.png"> </div>
+    <div class="footer">
+        <a id="remonter" href="#haut">Remonter</a>
+        <a id="facebook" href="https://www.facebook.com/ChloeImagine/"> <img src="images/f.png"></a>
+    </div>
+    </div>
+    <script type="text/javascript">
+        
+        document.onmousemove = suitsouris;
+        var width = $(window).width();        
+        var height = $(window).height();
+
+        
+        function suitsouris(evenement) {
+            if (navigator.appName == "Microsoft Internet Explorer") {
+                var x = width-event.x + document.body.scrollLeft;
+                var y = event.y + document.body.scrollTop;
+            }
+            else {
+                var x = evenement.pageX;
+                var y = evenement.pageY;
+            }
+            document.getElementById("image_suit_souris").style.left =  width/2+(x*0.2-1000) + 'px';
+            if(y<900){
+                document.getElementById("image_suit_souris").style.top = height/2+(y*0.2) + 'px';
+            }
+        }
+            
+    </script>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+
+</html>

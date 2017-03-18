@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+body {
+    overflow-x: hidden;
+}
+
+
+/*******                   HEADER/HERO                  **********/
+
+.hero {
+    background-image: url(images/hero.jpg);
+    /*background-attachment:fixed;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1100px;
+}
+
+img[src="images/logoCM.png"] {
+    padding: 2rem 2rem 0.4rem 2rem;
+    margin-left: 1rem;
+    height: 100px;
+}
+
+.hero h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-left: 3.4rem;
+}
+
+nav{
+    float:right;
+    margin:-3em 0;
+    margin-right:5em;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    z-index: 3;
+    position:relative;
+    
+}
+
+nav a{
+    padding:4em;
+    font-weight: 400;
+}
+
+nav a:hover{
+    font-weight: bold;
+    
+        
+}
+
+.hero h2 {
+    font-family: 'Lato', sans-serif;
+    padding-top: 15%;
+    font-size: 4.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.hero h3 {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+img[src="images/fond-plus2.png"] {
+    width: 150%;
+    margin-top: -600px;
+    height: 150%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+
+/*******                   A PROPOS                    **********/
+
+/* centrage des titres dans tous les projets */
+
+.titres {
+    margin-left: 11.3%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a-propos {
+    background-color: white;
+    transform: rotate(-5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -10%;
+    height: 900px;
+}
+
+.a-propos h4 {
+    transform: rotate(5deg);
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+
+.a-propos p {
+    transform: rotate(5deg);
+    width: 30%;
+    padding-top: 2em;
+    font-family: 'Lato', sans-serif;
+    weight: 100;
+    text-align: center;
+}
+
+
+/*******                     PROJETS                       **********/
+
+
+/*******                  LES PARCELLES                       **********/
+
+
+.les-parcelles {
+    background-image: url(images/les-parcelles2-black.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -18em;
+    height: 1000px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+}
+
+.les-parcelles:hover {
+    background-image: url(images/les-parcelles2-black-flou.png);
+}
+
+.les-parcelles h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    transform: rotate(-5deg);
+    margin-top:-6em;
+}
+
+.les-parcelles h4 .encadre {
+    background-color: #f2ceca;
+    padding: 0 10px;
+}
+
+
+/*******                  TESTS ANIMATION PLUS                       **********/
+
+
+/*h4 .plus {
+     animation: rotate 2s linear infinite;
+     transform-origin: 50% 50%;
+    
+     margin:10px;
+     transform: rotate(45deg);
+}
+ 
+@-webkit-keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+h4 .plus:hover{
+          animation-play-state: paused;
+animation: 2s linear infinite;
+          } 
+
+
+h4 .plus:hover {
+    
+    animation: spin 1s linear infinite;
+    transform-origin: 50% 50%;
+    transition-duration: 1s;
+    margin:10px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(45deg); } }*/
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    20% {
+        -webkit-transform: rotate(90deg);
+    }
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+    45% {
+        -webkit-transform: rotate(180deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    70% {
+        -webkit-transform: rotate(270deg);
+    }
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+h4 .plus:hover {
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 4.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transition-timing-function: linear;
+    transform-origin: 50% 50%;
+    transition-duration: 1s;
+    margin: 10px;
+}
+
+
+/*******                  LES PARCELLES SUITE                       **********/
+
+.les-parcelles h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    color: #fff;
+    transform: rotate(-5deg);
+}
+
+.les-parcelles h5 span {
+    background-color: black;
+    padding: 0 10px;
+}
+
+
+/*******                  GRAND PEYROU                       **********/
+
+.chateau-grand-peyrou {
+    background-image: url(images/chateau-grand-peyrou.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(-5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -18em;
+    height: 1000px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+}
+
+.chateau-grand-peyrou:hover {
+    background-image: url(images/chateau-grand-peyrou-flou.jpg);
+}
+
+
+.chateau-grand-peyrou h4 {
+    transform: rotate(5deg);
+    font-family: 'Lato', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-top: -5em;
+}
+
+.chateau-grand-peyrou h4 span {
+    background-color: #f2ceca;
+    padding: 0 10px;
+}
+
+.chateau-grand-peyrou h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    color: #fff;
+    transform: rotate(5deg);
+}
+
+.chateau-grand-peyrou h5 span {
+    background-color: black;
+    padding: 0 10px;
+}
+
+
+/*******                  LEJAY                       **********/
+
+.chateau-lejay {
+    background-image: url(images/chateau-lejay.jpg);
+   background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(-5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -18em;
+    height: 1000px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+}
+
+.chateau-lejay:hover {
+    background-image: url(images/chateau-lejay-flou.jpg);
+}
+
+.chateau-lejay h4 {
+    transform: rotate(5deg);
+    font-family: 'Lato', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-top: -5em;
+}
+
+.chateau-lejay h4 span {
+    background-color: #f2ceca;
+    padding: 0 10px;
+}
+
+.chateau-lejay h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    color: #fff;
+    transform: rotate(5deg);
+}
+
+.chateau-lejay h5 span {
+    background-color: black;
+    padding: 0 10px;
+}
+
+
+/*******                  ENCRE DES COTEAUX                        **********/
+
+.encre-des-coteaux {
+    background-image: url(images/encre-des-coteaux.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -18em;
+    height: 1000px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+}
+
+.encre-des-coteaux:hover {
+    background-image: url(images/encre-des-coteaux-flou.jpg);
+}
+
+.encre-des-coteaux h4 {
+    transform: rotate(-5deg);
+    font-family: 'Lato', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-top: -5em;
+}
+
+.encre-des-coteaux h4 span {
+    background-color: #f2ceca;
+    padding: 0 10px;
+}
+
+.encre-des-coteaux h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    color: #fff;
+    transform: rotate(-5deg);
+}
+
+.encre-des-coteaux h5 span {
+    background-color: black;
+    padding: 0 10px;
+}
+
+
+/*******                  PHOTOS                       **********/
+
+.photos {
+    background-image: url(images/photographie-lotus.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotate(5deg);
+    width: 130%;
+    margin-left: -15%;
+    margin-top: -18em;
+    height: 800px;
+    display: flex;
+    transition: all ease-in-out 0.5s;
+}
+
+.photos:hover {
+    background-image: url(images/photographie-lotus-flou.jpg);
+}
+
+.photos h4 {
+    transform: rotate(-5deg);
+    font-family: 'Lato', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+
+.photos h4 span {
+    background-color: #f2ceca;
+    padding: 0 10px;
+}
+
+.photos h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    color: #fff;
+    transform: rotate(-5deg);
+}
+
+.photos h5 span {
+    background-color: black;
+    padding: 0 10px;
+}
+
+
+/*******                  CONTACT                       **********/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5em;
+}
+
+.contact h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
+.contact h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.contact a,
+.contact address {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    ;
+}
+
+.contact img {
+    height: 70px;
+    margin: 0 0 2em 0;
+}
+
+
+/*******                  FOOTER                       **********/
+
+.footer {
+    background-color: #434343;
+    height: 100px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+img[src="images/f.png"] {
+    z-index: 1;
+    height: 35px;
+}
+
+.footer #facebook{
+    margin-right:3em;
+    padding-left: 51.5em;
+
+}
+
+.footer #remonter{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.footer #remonter:hover{
+    text-decoration: underline;
+}
+
+
+
