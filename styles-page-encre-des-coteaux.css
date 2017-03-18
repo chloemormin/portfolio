@@ -89,19 +89,38 @@ section p {
     
 }
 
+.centre{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position:relative;
+    left:calc(50% - 650px);
+}
+
 section p span {
     font-style: italic;
     font-weight: 400;
 }
 .zoom{
-    display:flex;
-    justify-content: center;
+    position:absolute;
+    left:calc(50% - 600px);
+    top:105%;
+
+
 }
 
 .colonne{
     display: flex;
     flex-direction: column;
-    float:right;
+    float:right; 
+    
+}
 
- 
+img[src="images/affiche-encre-des-coteaux.jpg"]{
+
+}
+
+img[src="images/zoom2-encre-des-coteaux2.jpg"], img[src="images/zoom1-encre-des-coteaux2.jpg"]{
+    padding: 0 0  0.5em 0.5em;
+    max-width: 78%;
 }
