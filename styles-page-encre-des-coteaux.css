@@ -59,7 +59,7 @@ img["images/retour2.png"] {
     justify-content: center;
 }
 
-img[src="images/encre-des-coteaux.jpg"] {
+img[src="images/encre-des-coteaux2.jpg"] {
     z-index: 1;
     transform: rotate(5deg);
     margin: -194px -10%;
@@ -70,9 +70,11 @@ img[src="images/encre-des-coteaux.jpg"] {
 
 section {
     transform: rotate(-5deg);
-    margin-top: -65%;
-    padding-bottom: -8em;
+    margin-top: -72%;
+    padding:1em;
     display: flex;
+    /*flex-direction: column;*/
+
 }
 
 section p {
@@ -83,13 +85,23 @@ section p {
     font-size: 1.2em;
     font-weight: 100;
     color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    margin:auto;
+    
 }
 
 section p span {
     font-style: italic;
     font-weight: 400;
+}
+.zoom{
+    display:flex;
+    justify-content: center;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+    float:right;
+
+ 
 }
