@@ -15,7 +15,7 @@ body {
     height: 1100px;
 }
 
-img[src="images/logoCM.png"] {
+img[src="images/logo.svg"] {
     padding: 2rem 2rem 0.4rem 2rem;
     margin-left: 1rem;
     height: 100px;
@@ -112,7 +112,7 @@ img[src="images/fond-plus2.png"] {
 
 .a-propos p {
     transform: rotate(5deg);
-    width: 30%;
+    width: 32%;
     padding-top: 2em;
     font-family: 'Lato', sans-serif;
     weight: 100;
@@ -127,8 +127,8 @@ img[src="images/fond-plus2.png"] {
 
 
 .les-parcelles {
-    background-image: url(images/les-parcelles2-black.jpg);
-    background-size: 100%;
+    background-image: url(images/les-parcelles2-black2.jpg);
+    background-size: 90%;
     background-repeat: no-repeat;
     transform: rotate(5deg);
     width: 130%;
@@ -140,7 +140,7 @@ img[src="images/fond-plus2.png"] {
 }
 
 .les-parcelles:hover {
-    background-image: url(images/les-parcelles2-black-flou.png);
+    background-image: url(images/les-parcelles2-black2-flou.jpg);
 }
 
 .les-parcelles h4 {
@@ -157,43 +157,7 @@ img[src="images/fond-plus2.png"] {
 }
 
 
-/*******                  TESTS ANIMATION PLUS                       **********/
 
-
-/*h4 .plus {
-     animation: rotate 2s linear infinite;
-     transform-origin: 50% 50%;
-    
-     margin:10px;
-     transform: rotate(45deg);
-}
- 
-@-webkit-keyframes rotating {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-
-h4 .plus:hover{
-          animation-play-state: paused;
-animation: 2s linear infinite;
-          } 
-
-
-h4 .plus:hover {
-    
-    animation: spin 1s linear infinite;
-    transform-origin: 50% 50%;
-    transition-duration: 1s;
-    margin:10px;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(45deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(45deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(45deg); transform:rotate(45deg); } }*/
 
 @-webkit-keyframes rotate {
     0% {
@@ -277,7 +241,7 @@ h4 .plus:hover {
     margin-top: -5em;
 }
 
-.chateau-grand-peyrou h4 span {
+.chateau-grand-peyrou h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
 }
@@ -323,7 +287,7 @@ h4 .plus:hover {
     margin-top: -5em;
 }
 
-.chateau-lejay h4 span {
+.chateau-lejay h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
 }
@@ -369,7 +333,7 @@ h4 .plus:hover {
     margin-top: -5em;
 }
 
-.encre-des-coteaux h4 span {
+.encre-des-coteaux h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
 }
@@ -414,9 +378,10 @@ h4 .plus:hover {
     font-weight: bold;
 }
 
-.photos h4 span {
+.photos h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
+    
 }
 
 .photos h5 {
@@ -476,18 +441,20 @@ h4 .plus:hover {
     min-width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    
+    justify-content: center;
+    flex-direction: column;/*change le sens des parametres align-items et justify-content*/
 }
 
-img[src="images/f.png"] {
+img[src="images/fb.svg"] {
     z-index: 1;
-    height: 35px;
+    width:22%;
+    height: 100%;
 }
 
 .footer #facebook{
-    margin-right:3em;
-    padding-left: 51.5em;
+    margin-right:-3em;
+    margin-top:-1.5em;
+    align-self: flex-end;
 
 }
 

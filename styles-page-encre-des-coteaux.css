@@ -56,10 +56,16 @@ img["images/retour2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   /* 
+    test nouvelles diagonale
+    background-image: url(images/zone-grise.png);
+    background-position: center;
+    background-size: 100%;*/
 }
 
 .diagonale {
-    background-color: #434343;
+    /*background-color: #434343;*/
+    background-color: #f5eeea;
     transform: rotate(-5deg);
     width: 130%;
     margin-left: -15%;
@@ -67,6 +73,7 @@ img["images/retour2.png"] {
     display: flex;
     justify-content: center;
 }
+
 
 img[src="images/encre-des-coteaux2.jpg"] {
     transform: rotate(5deg);
