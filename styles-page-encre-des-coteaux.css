@@ -36,8 +36,9 @@ img["images/retour2.png"] {
 }
 
 .hero-encre-des-coteaux a {
+    z-index: 1;
     margin: 20px;
-    display: inline-block;
+    display: block;
     float: left;
     font-family: 'lato', sans-serif;
     font-size: 0.8em;
@@ -70,7 +71,7 @@ img[src="images/encre-des-coteaux2.jpg"] {
 
 section {
     transform: rotate(-5deg);
-    margin-top: -72%;
+    margin-top: -57.5%;
     padding:1em;
     display: flex;
     /*flex-direction: column;*/
@@ -80,7 +81,8 @@ section {
 section p {
     font-family: 'Lato', sans-serif;
     transform: rotate(5deg);
-    padding-top: 67em;
+    padding-top: 67.5em;
+    padding-bottom: 1em;
     margin-left: 44%;
     font-size: 1.2em;
     font-weight: 100;
@@ -90,11 +92,12 @@ section p {
 }
 
 .centre{
+    margin-left: 8%;
+    width: 100vw;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    position:relative;
-    left:calc(50% - 650px);
 }
 
 section p span {
@@ -102,11 +105,11 @@ section p span {
     font-weight: 400;
 }
 .zoom{
-    position:absolute;
-    left:calc(50% - 600px);
-    top:105%;
-
-
+    margin-left: -8%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .colonne{
