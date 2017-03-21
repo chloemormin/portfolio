@@ -32,8 +32,8 @@
     <a href="les-parcelles.html">
         <div class="les-parcelles" id="projets">
             <div class="titres">
-                <h4><span class="plus">+&nbsp;</span><span class="encadre">Les parcelles</span></h4>
-                <h5><span>Espace de coworking</span></h5> </div>
+                <h4 id="apparition"><span class="plus">+&nbsp;</span><span class="encadre">Les parcelles</span></h4>
+                <h5 id="apparition2"><span>Espace de coworking</span></h5> </div>
         </div>
     </a>
     <a href="chateau-grand-peyrou.html">
@@ -96,6 +96,7 @@
             
     </script>
 <script type="text/javascript">
+    /*smooth scroll avec encres #id*/
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -111,6 +112,24 @@ $(function() {
   });
 });
 </script>
+    <script type="text/javascript">
+   $("#apparition").hide();
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 1200) {
+                $("#apparition").fadeIn("slow");
+            } else {
+                $("#apparition").fadeOut("fast");
+            }
+        });
+        $("#apparition2").hide();
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 1200) {
+                $("#apparition2").fadeIn("slow");
+            } else {
+                $("#apparition2").fadeOut("fast");
+            }
+        });
+    </script>
 </body>
 
 </html>
