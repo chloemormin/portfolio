@@ -4,7 +4,7 @@ body {
 }
 
 
-/*******                  PAGE PHOTOS                 **********/
+/*******                  PAGE LES PARCELLES                 **********/
 
 .hero-encre-des-coteaux {
     background-image: url("../images/fondpastel.png");
@@ -50,16 +50,8 @@ img["../images/retour2.png"] {
     text-decoration: underline;
 }
 
-.centre {
-    margin-left: 8%;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .diagonale {
+    /*background-color: #434343;*/
     background-color: #f5eeea;
     transform: rotate(-5deg);
     width: 130%;
@@ -69,7 +61,7 @@ img["../images/retour2.png"] {
     justify-content: center;
 }
 
-img[src="../images/photographie-lotus.jpg"] {
+img[src="../images/parcelles/les-parcelles.jpg"] {
     transform: rotate(5deg);
     margin: -194px -10%;
     margin-top: 4em;
@@ -77,26 +69,40 @@ img[src="../images/photographie-lotus.jpg"] {
     height: 100%;
 }
 
+section p {
+    font-family: 'Lato', sans-serif;
+    padding-top: 11em;
+    padding-bottom: 2em;
+    margin-left: 23.5%;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: black;
+    /*margin:auto;*/
+}
+
 section p span {
     font-style: italic;
     font-weight: 400;
 }
 
-.photo-duo {
-    margin-top: 13em;
-    max-width: 28.5%;
+.centre {
+    margin-left: 8%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: wrap;
-    margin-bottom: 5%;
-    margin-left: -15%;
+    max-width: 20%;
+    margin: auto;
 }
 
-img[src="../images/bourgeon.jpg"],
-img[src="../images/fleur1.jpg"] {
-    max-width: 100%;
-    padding: 0 0 1em 1em;
+img[src="../images/parcelles/pres-parcelles.jpg] 
+ {
+    width: 30%;
+}
+
+img[src="../images/parcelles/les-actus.jpg"],
+img[src="../images/parcelles/winefunding.jpg"] {
+    width: 30%;
 }
 
 
