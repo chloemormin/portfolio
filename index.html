@@ -14,19 +14,13 @@
 <body>
     <header class="hero" id="haut"> <img src="images/logo.svg">
         <h1>Chloé Mormin</h1>
-        
-        <nav>
-            <a href="#a-propos"> A propos</a>
-            <a href="#projets"> Projets</a>
-            <a href="#contact"> Contact</a>
-        </nav>
-        <h2 >UI Designer</h2>
+        <nav> <a href="#a-propos"> A propos</a> <a href="#projets"> Projets</a> <a href="#contact"> Contact</a> </nav>
+        <h2>UI Designer</h2>
         <h3>Graphisme &amp; webdesign</h3> <img src="images/fond-plus2.png" alt="Image qui suit la souris" id="image_suit_souris"> </header>
-    
     <div class="a-propos">
         <div class="titres">
             <h4 id="a-propos">A propos</h4>
-        <p>Actuellement en formation UI Designer à Digital Campus, je recherche un stage pour la période du 3 au 28 juillet. Pendant 3 ans, j'ai été graphiste print pour l'association l'Autre Rive, éditrice du mensuel l'Echo des collines. Je complète actuellement mes compétences par l'apprentissage du code HTML/CSS, PHP et JavaScript ... afin de pouvoir réaliser des sites design et responsive.</p>
+            <p>Actuellement en formation UI Designer à Digital Campus, je recherche un stage pour la période du 3 au 28 juillet. Pendant 3 ans, j'ai été graphiste print pour l'association l'Autre Rive, éditrice du mensuel l'Echo des collines. Je complète actuellement mes compétences par l'apprentissage du code HTML/CSS, PHP et JavaScript ... afin de pouvoir réaliser des sites design et responsive.</p>
         </div>
     </div>
     <a href="les-parcelles.html">
@@ -51,7 +45,7 @@
         </div>
     </a>
     <a href="encre-des-coteaux.html">
-        <div class="encre-des-coteaux" >
+        <div class="encre-des-coteaux">
             <div class="titres">
                 <h4><span class="plus">+&nbsp;</span><span class="encadre">Encre des coteaux</span></h4>
                 <h5><span>Concours d'écriture</span></h5> </div>
@@ -68,56 +62,53 @@
         <h4>Contact</h4>
         <h5>Chloé Mormin</h5> <a href="mailto:chloe.mormin@gmail.com">chloe.mormin@gmail.com</a> <a href="tel:+33102030405">06.08.65.73.68</a> <address>18, rue Edouard Herriot
                 <br/>33310 Lormont </address> <img src="images/logo.svg"> </div>
-    <div class="footer">
-        <a id="remonter" href="#haut">Remonter</a>
+    <div class="footer"> <a id="remonter" href="#haut">Remonter</a>
         <a id="facebook" href="https://www.facebook.com/ChloeImagine/"> <img src="images/fb.svg"></a>
-    </div>
     </div>
     <script type="text/javascript">
         document.onmousemove = suitsouris;
-        var width = $(window).width();        
+        var width = $(window).width();
         var height = $(window).height();
 
-        
         function suitsouris(evenement) {
             if (navigator.appName == "Microsoft Internet Explorer") {
-                var x = width-event.x + document.body.scrollLeft;
+                var x = width - event.x + document.body.scrollLeft;
                 var y = event.y + document.body.scrollTop;
             }
             else {
                 var x = evenement.pageX;
                 var y = evenement.pageY;
             }
-            document.getElementById("image_suit_souris").style.left =  width/2+(x*0.2-1000) + 'px';
-            if(y<900){
-                document.getElementById("image_suit_souris").style.top = height/2+(y*0.2) + 'px';
+            document.getElementById("image_suit_souris").style.left = width / 2 + (x * 0.2 - 1000) + 'px';
+            if (y < 900) {
+                document.getElementById("image_suit_souris").style.top = height / 2 + (y * 0.2) + 'px';
             }
         }
-            
     </script>
-<script type="text/javascript">
-    /*smooth scroll avec encres #id*/
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
     <script type="text/javascript">
-   $("#apparition").hide();
+        /*smooth scroll avec encres #id*/
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $("#apparition").hide();
         $(window).scroll(function () {
             if ($(window).scrollTop() > 1200) {
                 $("#apparition").fadeIn("slow");
-            } else {
+            }
+            else {
                 $("#apparition").fadeOut("fast");
             }
         });
@@ -125,7 +116,8 @@ $(function() {
         $(window).scroll(function () {
             if ($(window).scrollTop() > 1200) {
                 $("#apparition2").fadeIn("slow");
-            } else {
+            }
+            else {
                 $("#apparition2").fadeOut("fast");
             }
         });
