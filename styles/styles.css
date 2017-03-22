@@ -7,7 +7,7 @@ body {
 /*******                   HEADER/HERO                  **********/
 
 .hero {
-    background-image: url(images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     /*background-attachment:fixed;*/
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
     height: 1100px;
 }
 
-img[src="images/logo.svg"] {
+img[src="../images/logo.svg"] {
     padding: 2rem 2rem 0.4rem 2rem;
     margin-left: 1rem;
     height: 100px;
@@ -28,26 +28,23 @@ img[src="images/logo.svg"] {
     padding-left: 3.4rem;
 }
 
-nav{
-    float:right;
-    margin:-3em 0;
-    margin-right:5em;
+nav {
+    float: right;
+    margin: -3em 0;
+    margin-right: 5em;
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     z-index: 3;
-    position:relative;
-    
+    position: relative;
 }
 
-nav a{
-    padding:4em;
+nav a {
+    padding: 4em;
     font-weight: 400;
 }
 
-nav a:hover{
+nav a:hover {
     font-weight: bold;
-    
-        
 }
 
 .hero h2 {
@@ -67,18 +64,18 @@ nav a:hover{
     font-weight: 100;
 }
 
-img[src="images/fond-plus2.png"] {
+img[src="../images/fond-plus2.png"] {
     width: 150%;
     margin-top: -600px;
     height: 150%;
     position: absolute;
     right: 10px;
     top: 10px;
-
 }
 
 
 /*******                   A PROPOS                    **********/
+
 
 /* centrage des titres dans tous les projets */
 
@@ -89,7 +86,6 @@ img[src="images/fond-plus2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .a-propos {
@@ -109,7 +105,6 @@ img[src="images/fond-plus2.png"] {
     padding-top: 10%;
 }
 
-
 .a-propos p {
     transform: rotate(5deg);
     width: 32%;
@@ -125,9 +120,8 @@ img[src="images/fond-plus2.png"] {
 
 /*******                  LES PARCELLES                       **********/
 
-
 .les-parcelles {
-    background-image: url(images/les-parcelles2-black2.jpg);
+    background-image: url(../images/les-parcelles2-black2.jpg);
     background-size: 90%;
     background-repeat: no-repeat;
     transform: rotate(5deg);
@@ -140,7 +134,7 @@ img[src="images/fond-plus2.png"] {
 }
 
 .les-parcelles:hover {
-    background-image: url(images/les-parcelles2-black2-flou.jpg);
+    background-image: url(../images/les-parcelles2-black2-flou.jpg);
 }
 
 .les-parcelles h4 {
@@ -148,16 +142,13 @@ img[src="images/fond-plus2.png"] {
     font-size: 2.7em;
     font-weight: bold;
     transform: rotate(-5deg);
-    margin-top:-6em;
+    margin-top: -6em;
 }
 
 .les-parcelles h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
 }
-
-
-
 
 @-webkit-keyframes rotate {
     0% {
@@ -216,7 +207,7 @@ h4 .plus:hover {
 /*******                  GRAND PEYROU                       **********/
 
 .chateau-grand-peyrou {
-    background-image: url(images/chateau-grand-peyrou.jpg);
+    background-image: url(../images/chateau-grand-peyrou.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     transform: rotate(-5deg);
@@ -229,9 +220,8 @@ h4 .plus:hover {
 }
 
 .chateau-grand-peyrou:hover {
-    background-image: url(images/chateau-grand-peyrou-flou.jpg);
+    background-image: url(../images/chateau-grand-peyrou-flou.jpg);
 }
-
 
 .chateau-grand-peyrou h4 {
     transform: rotate(5deg);
@@ -263,8 +253,8 @@ h4 .plus:hover {
 /*******                  LEJAY                       **********/
 
 .chateau-lejay {
-    background-image: url(images/chateau-lejay.jpg);
-   background-size: 100%;
+    background-image: url(../images/chateau-lejay.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     transform: rotate(-5deg);
     width: 130%;
@@ -276,7 +266,7 @@ h4 .plus:hover {
 }
 
 .chateau-lejay:hover {
-    background-image: url(images/chateau-lejay-flou.jpg);
+    background-image: url(../images/chateau-lejay-flou.jpg);
 }
 
 .chateau-lejay h4 {
@@ -309,7 +299,7 @@ h4 .plus:hover {
 /*******                  ENCRE DES COTEAUX                        **********/
 
 .encre-des-coteaux {
-    background-image: url(images/encre-des-coteaux.jpg);
+    background-image: url(../images/encre-des-coteaux.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     transform: rotate(5deg);
@@ -322,7 +312,7 @@ h4 .plus:hover {
 }
 
 .encre-des-coteaux:hover {
-    background-image: url(images/encre-des-coteaux-flou.jpg);
+    background-image: url(../images/encre-des-coteaux-flou.jpg);
 }
 
 .encre-des-coteaux h4 {
@@ -355,7 +345,7 @@ h4 .plus:hover {
 /*******                  PHOTOS                       **********/
 
 .photos {
-    background-image: url(images/photographie-lotus.jpg);
+    background-image: url(../images/photographie-lotus.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     transform: rotate(5deg);
@@ -368,7 +358,7 @@ h4 .plus:hover {
 }
 
 .photos:hover {
-    background-image: url(images/photographie-lotus-flou.jpg);
+    background-image: url(../images/photographie-lotus-flou.jpg);
 }
 
 .photos h4 {
@@ -381,7 +371,6 @@ h4 .plus:hover {
 .photos h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
-    
 }
 
 .photos h5 {
@@ -404,7 +393,7 @@ h4 .plus:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:5em;
+    padding: 5em;
 }
 
 .contact h4 {
@@ -442,32 +431,29 @@ h4 .plus:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;/*change le sens des parametres align-items et justify-content*/
+    flex-direction: column;
+    /*change le sens des parametres align-items et justify-content*/
 }
 
-img[src="images/fb.svg"] {
+img[src="../images/fb.svg"] {
     z-index: 1;
-    width:22%;
+    width: 22%;
     height: 100%;
 }
 
-.footer #facebook{
-    margin-right:-3em;
-    margin-top:-1.5em;
+.footer #facebook {
+    margin-right: -3em;
+    margin-top: -1.5em;
     align-self: flex-end;
-
 }
 
-.footer #remonter{
-    color:white;
+.footer #remonter {
+    color: white;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     font-weight: 100;
 }
 
-.footer #remonter:hover{
+.footer #remonter:hover {
     text-decoration: underline;
 }
-
-
-
