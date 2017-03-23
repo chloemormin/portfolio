@@ -93,17 +93,15 @@ section p span {
     align-items: center;
     max-width: 20%;
     margin: auto;
+    padding:5em;
 }
 
-img[src="../images/parcelles/pres-parcelles.jpg] 
+img[src="../images/parcelles/pres-parcelles.jpg], img[src="../images/parcelles/les-actus.jpg"],
+img[src="../images/parcelles/winefunding.jpg"] 
  {
-    width: 30%;
+    
 }
 
-img[src="../images/parcelles/les-actus.jpg"],
-img[src="../images/parcelles/winefunding.jpg"] {
-    width: 30%;
-}
 
 
 /*******                  FOOTER                       **********/
