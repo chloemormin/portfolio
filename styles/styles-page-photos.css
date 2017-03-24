@@ -113,7 +113,7 @@ img[src="images/fleur1.jpg"] {
     /*change le sens des parametres align-items et justify-content*/
 }
 
-img[src="../images/fb.svg"] {
+img[src="images/fb.svg"] {
     z-index: 1;
     width: 22%;
     height: 100%;
