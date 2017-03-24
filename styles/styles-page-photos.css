@@ -69,7 +69,7 @@ img["../images/retour2.png"] {
     justify-content: center;
 }
 
-img[src="../images/photographie-lotus.jpg"] {
+img[src="images/photographie-lotus.jpg"] {
     transform: rotate(5deg);
     margin: -194px -10%;
     margin-top: 4em;
@@ -93,8 +93,8 @@ section p span {
     margin-left: -15%;
 }
 
-img[src="../images/bourgeon.jpg"],
-img[src="../images/fleur1.jpg"] {
+img[src="images/bourgeon.jpg"],
+img[src="images/fleur1.jpg"] {
     max-width: 100%;
     padding: 0 0 1em 1em;
 }
