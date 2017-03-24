@@ -80,26 +80,42 @@ section p {
     /*margin:auto;*/
 }
 
-section p span {
+section p a {
     font-style: italic;
     font-weight: 400;
 }
 
+p{
+    font-family: 'Lato', sans-serif;
+    padding: 2em 0;
+    margin-left: 23.5%;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: black;
+}
+
 .centre {
-    margin-left: 8%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 20%;
     margin: auto;
-    padding:5em;
+
 }
 
-img[src="../images/parcelles/pres-parcelles.jpg], img[src="../images/parcelles/les-actus.jpg"],
-img[src="../images/parcelles/winefunding.jpg"] 
- {
-    
+.centre img{
+        padding-bottom:3em;
+}
+
+.wrap{
+    margin-left: 22%;
+    padding-bottom:3em;
+
+}
+
+img[src="../images/parcelles/winefunding.jpg"]{
+    width:40%;
+    padding-left: 2em;
 }
 
 
@@ -107,6 +123,7 @@ img[src="../images/parcelles/winefunding.jpg"]
 /*******                  FOOTER                       **********/
 
 .footer {
+/*    background-color: #e2d7d1;*/
     background-color: #434343;
     height: 100px;
     min-width: 100%;
@@ -130,7 +147,7 @@ img[src="../images/fb.svg"] {
 }
 
 .footer #remonter {
-    color: white;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
     font-weight: 100;
