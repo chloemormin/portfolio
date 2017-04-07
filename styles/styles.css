@@ -185,6 +185,8 @@ img[src="images/fond-plus2.png"] {
     .les-parcelles{
         margin-top:-25em;
         transform:rotate(4deg);
+        width:140%;
+        margin-left:-18%;
 
     }
 }
@@ -197,6 +199,7 @@ img[src="images/fond-plus2.png"] {
 @media screen and (max-width:1000px){
     .les-parcelles{
         transform:rotate(3deg);
+        width:150%;
 
     }
 }
@@ -337,7 +340,7 @@ h4 .plus:hover {
 
 @media screen and (max-width:1600px){
     .chateau-grand-peyrou{
-        margin-top:-22em;
+        margin-top:-24em;
         width:125%;
         transform:rotate(-5deg);
     }
@@ -376,6 +379,34 @@ h4 .plus:hover {
     margin-top: -5em;
 }
 
+@media screen and (max-width:1600px){
+    .chateau-grand-peyrou h4 {
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .chateau-grand-peyrou h4{
+        transform:rotate(4deg);
+        font-size: 2.5em;
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .chateau-grand-peyrou h4{
+        margin-top:-9em;
+    }
+}
+@media screen and (max-width:1070px){
+    .chateau-grand-peyrou h4{
+        margin-top:-12em;
+        transform:rotate(3deg);
+        font-size: 2em;
+
+    }
+}
+
 .chateau-grand-peyrou h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
@@ -387,6 +418,30 @@ h4 .plus:hover {
     font-weight: 100;
     color: #fff;
     transform: rotate(5deg);
+}
+
+@media screen and (max-width:1600px){
+    .chateau-grand-peyrou h5 {
+    }
+}
+
+@media screen and (max-width:1400px){
+    .chateau-grand-peyrou h5{
+        transform:rotate(4deg);
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .chateau-grand-peyrou h5{
+    }
+}
+@media screen and (max-width:1070px){
+    .chateau-grand-peyrou h5{
+        transform:rotate(3deg);
+        font-size: 1.6em;
+
+    }
 }
 
 .chateau-grand-peyrou h5 span {
