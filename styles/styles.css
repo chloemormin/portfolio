@@ -15,6 +15,12 @@ body {
     height: 1100px;
 }
 
+@media screen and (max-width:1000px) and (min-width:320px){
+    .hero {
+    height:800px;
+    }
+}
+
 #logo {
     padding: 2rem 2rem 0.4rem 2rem;
     margin-left: 1rem;
@@ -33,6 +39,11 @@ body {
     }
 }
 
+@media screen and (max-width:1000px) and (min-width:320px){
+    #logo {
+    height: 70px;
+    }
+}
 
 .hero h1 {
     font-family: 'Lato', sans-serif;
@@ -51,6 +62,8 @@ body {
     font-size: 0.8rem;
     }
 }
+
+
 
 nav {
     float: right;
@@ -86,6 +99,12 @@ nav a:hover {
     }
 }
 
+@media screen and (max-width:1000px) and (min-width:320px){
+    .hero h2 {
+    font-size: 2rem;
+    }
+}
+
 .hero h3 {
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -100,6 +119,12 @@ nav a:hover {
     }
 }
 
+@media screen and (max-width:1000px) and (min-width:320px){
+    .hero h3 {
+    font-size: 1.8rem;
+    }
+}
+
 img[src="images/fond-plus2.png"] {
     width: 150%;
     margin-top: -600px;
@@ -107,6 +132,33 @@ img[src="images/fond-plus2.png"] {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+@media screen and (max-width:1000px) and (min-width:320px){
+    img[src="images/fond-plus2.png"] {
+    display:none;
+    }
+}
+
+@media screen and (max-width:1600px){
+    img[src="images/fond-plus2.png"]{
+    width: 200%;
+    height: 200%;
+    }
+}
+
+@media screen and (max-width:1400px){
+    img[src="images/fond-plus2.png"]{
+    width: 220%;
+    height: 220%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    img[src="images/fond-plus2.png"]{
+    width: 240%;
+    height: 240%;
+    }
 }
 
 
@@ -178,6 +230,8 @@ img[src="images/fond-plus2.png"] {
 @media screen and (max-width:1600px){
     .les-parcelles{
         margin-top:-22em;
+        margin-left:-17%;
+
     }
 }
 
@@ -186,7 +240,7 @@ img[src="images/fond-plus2.png"] {
         margin-top:-25em;
         transform:rotate(4deg);
         width:140%;
-        margin-left:-18%;
+        margin-left:-19%;
 
     }
 }
@@ -214,6 +268,7 @@ img[src="images/fond-plus2.png"] {
 @media screen and (max-width:1600px){
     .les-parcelles h4 {
         margin-top:-9em;
+
     }
 }
 
@@ -427,7 +482,6 @@ h4 .plus:hover {
 
 @media screen and (max-width:1400px){
     .chateau-grand-peyrou h5{
-        transform:rotate(4deg);
         font-size: 2em;
     }
 }
@@ -438,7 +492,6 @@ h4 .plus:hover {
 }
 @media screen and (max-width:1070px){
     .chateau-grand-peyrou h5{
-        transform:rotate(3deg);
         font-size: 1.6em;
 
     }
@@ -474,9 +527,36 @@ h4 .plus:hover {
     font-family: 'Lato', sans-serif;
     font-size: 2.7em;
     font-weight: bold;
-    margin-top: -5em;
+    margin-top: -6em;
 }
 
+@media screen and (max-width:1600px){
+    .chateau-lejay h4 {
+    margin-top:-7.5em;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .chateau-lejay h4{
+        font-size: 2.5em;
+        margin-top:-9em;
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .chateau-lejay h4{
+        margin-top:-13em;
+    }
+}
+@media screen and (max-width:1070px){
+    .chateau-lejay h4{
+        margin-top:-17em;
+        font-size: 2em;
+
+    }
+}
 .chateau-lejay h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
@@ -489,6 +569,29 @@ h4 .plus:hover {
     color: #fff;
     transform: rotate(5deg);
 }
+
+@media screen and (max-width:1600px){
+    .chateau-lejay h5 {
+    }
+}
+
+@media screen and (max-width:1400px){
+    .chateau-lejay h5{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .chateau-lejay h5{
+    }
+}
+@media screen and (max-width:1070px){
+    .chateau-lejay h5{
+        font-size: 1.6em;
+
+    }
+}
+
 
 .chateau-lejay h5 span {
     background-color: black;
@@ -511,6 +614,38 @@ h4 .plus:hover {
     transition: all ease-in-out 0.5s;
 }
 
+@media screen and (max-width:1600px){
+    .encre-des-coteaux{
+        margin-top:-24em;
+        width:125%;
+        transform:rotate(5deg);
+    }
+}
+
+@media screen and (max-width:1400px){
+    .encre-des-coteauxu{
+        margin-top:-28em;
+        transform:rotate(4deg);
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .encre-des-coteaux{
+        width:120%;
+        margin-left:-13%;
+        margin-top:-33em;
+    }
+}
+
+@media screen and (max-width:1070px){
+    .encre-des-coteaux{
+        width:115%;
+        margin-top:-35em;
+        margin-left:-10%;
+        transform:rotate(3deg);
+    }
+}
 .encre-des-coteaux:hover {
     background-image: url(../images/encre-des-coteaux-flou.jpg);
 }
@@ -521,6 +656,36 @@ h4 .plus:hover {
     font-size: 2.7em;
     font-weight: bold;
     margin-top: -5em;
+}
+
+@media screen and (max-width:1600px){
+    .encre-des-coteaux h4 {
+        margin-top:-8em;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .encre-des-coteaux h4{
+        transform:rotate(-4deg);
+        font-size: 2.5em;
+        margin-top:-10em;
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .encre-des-coteaux h4{
+        margin-top:-12em;
+
+    }
+}
+@media screen and (max-width:1070px){
+    .encre-des-coteaux h4{
+        transform:rotate(-3deg);
+        font-size: 2em;
+        margin-top:-15em;
+
+    }
 }
 
 .encre-des-coteaux h4 .encadre {
@@ -534,6 +699,32 @@ h4 .plus:hover {
     font-weight: 100;
     color: #fff;
     transform: rotate(-5deg);
+}
+
+@media screen and (max-width:1600px){
+    .encre-des-coteaux h5 {
+    }
+}
+
+@media screen and (max-width:1400px){
+    .encre-des-coteaux h5{
+        font-size: 2em;
+        transform:rotate(-4deg);
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .encre-des-coteaux h5{
+    }
+}
+@media screen and (max-width:1070px){
+    .encre-des-coteaux h5{
+        font-size: 1.6em;
+        transform:rotate(-3deg);
+
+
+    }
 }
 
 .encre-des-coteaux h5 span {
@@ -557,6 +748,40 @@ h4 .plus:hover {
     transition: all ease-in-out 0.5s;
 }
 
+@media screen and (max-width:1600px){
+    .photos{
+        margin-top:-24em;
+        width:125%;
+        transform:rotate(5deg);
+        height:700px;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    .photos{
+        margin-top:-28em;
+        transform:rotate(4deg);
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .photos{
+        width:120%;
+        margin-left:-13%;
+        margin-top:-33em;
+    }
+}
+
+@media screen and (max-width:1070px){
+    .photos{
+        width:115%;
+        margin-top:-35em;
+        margin-left:-10%;
+        transform:rotate(3deg);
+    }
+}
 .photos:hover {
     background-image: url(../images/photographie-lotus-flou.jpg);
 }
@@ -567,7 +792,32 @@ h4 .plus:hover {
     font-size: 2.7em;
     font-weight: bold;
 }
+@media screen and (max-width:1600px){
+    .photos h4 {
 
+    }
+}
+
+@media screen and (max-width:1400px){
+    .photos h4{
+        transform:rotate(-4deg);
+        font-size: 2.5em;
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .photos h4{
+        margin-top:-9em;
+    }
+}
+@media screen and (max-width:1070px){
+    .photos h4{
+        margin-top:-12em;
+        transform:rotate(-3deg);
+        font-size: 2em;
+    }
+}
 .photos h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
@@ -580,7 +830,31 @@ h4 .plus:hover {
     color: #fff;
     transform: rotate(-5deg);
 }
+@media screen and (max-width:1600px){
+    .photos h5 {
+    }
+}
 
+@media screen and (max-width:1400px){
+    .photos h5{
+        font-size: 2em;
+        transform:rotate(-4deg);
+
+    }
+}
+
+@media screen and (max-width:1260px){
+    .photos h5{
+    }
+}
+@media screen and (max-width:1070px){
+    .photos h5{
+        font-size: 1.6em;
+        transform:rotate(-3deg);
+
+
+    }
+}
 .photos h5 span {
     background-color: black;
     padding: 0 10px;
