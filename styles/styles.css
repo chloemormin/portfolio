@@ -285,30 +285,31 @@ img[src="images/fond-plus2.png"] {
     font-family: 'Lato', sans-serif;
     weight: 100;
     text-align: center;
+    font-size:1em
 }
 
 @media screen and (max-width:1600px){
     .a-propos p {
-        font-size: 1.5em;
+        font-size: 1em;
 }
 }
 
 @media screen and (max-width:1400px){
     .a-propos p{
-        font-size: 1.4em;
+        font-size: 1em;
     }
 }
 
 @media screen and (max-width:1260px){
     .a-propos p{
-        font-size: 1.2em;
+        font-size: 1em;
         width:50%;
     }
 }
 
 @media screen and (max-width:1000px) and (min-width:320px){
     .a-propos p {
-        font-size:1em;
+        font-size:0.9em;
         width:80%;
     }
 }
