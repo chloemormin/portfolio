@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 
-html{
-    min-width:320px;
-    /****    a chercher, ne marche pas     ******/
-
-}
 
 body {
     overflow-x: hidden;
@@ -22,21 +17,7 @@ body {
     height: 1100px;
 }
 
-@media screen and (max-width:1000px) and (min-width:500px){
-    .hero {
-    height:800px;
-    }
-}
 
-@media screen and (max-width:501px) and (min-width:320px){
-    .hero {
-    height:500px;
-    background-position: center;
-    position: relative;
-    right:0;
-    }
-    
-}
 
 #logo {
     padding: 2rem 2rem 0.4rem 2rem;
@@ -53,20 +34,6 @@ body {
 @media screen and (max-width:1260px){
     #logo {
     height: 80px;
-    }
-}
-
-@media screen and (max-width:1000px) and (min-width:550px){
-    #logo {
-    height: 75px;
-    }
-}
-
-@media screen and (max-width:550px) and (min-width:320px){
-    #logo {
-    height: 70px;
-     margin-left:-1em;
-    margin-top:-1em;
     }
 }
 
@@ -88,18 +55,6 @@ body {
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:550px){
-    .hero h1 {
-    }
-}
-
-@media screen and (max-width:550px) and (min-width:320px){
-    .hero h1 {
-     margin-left:-3.1em;
-        margin-top:-0.5em;
-        font-size: 0.7rem;
-    }
-}
 
 nav {
     float: right;
@@ -111,7 +66,7 @@ nav {
     position: relative;
 }
 
-@media screen and (max-width:8000px) {
+@media screen and (max-width:800px) {
     nav {
     display:none;
     }
@@ -141,13 +96,6 @@ nav a:hover {
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:320px){
-    .hero h2 {
-    font-size: 2.3rem;
-    margin-top:1em;
-    }
-}
-
 .hero h3 {
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -162,17 +110,6 @@ nav a:hover {
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:550px){
-    .hero h3 {
-    font-size: 1.8rem;
-    }
-}
-
-@media screen and (max-width:550px) and (min-width:320px){
-    .hero h3 {
-    font-size: 1.6rem;
-    }
-}
 
 img[src="images/fond-plus2.png"] {
     width: 150%;
@@ -181,12 +118,6 @@ img[src="images/fond-plus2.png"] {
     position: absolute;
     right: 10px;
     top: 10px;
-}
-
-@media screen and (max-width:1000px) and (min-width:320px){
-    img[src="images/fond-plus2.png"] {
-    display:none;
-    }
 }
 
 @media screen and (max-width:1600px){
@@ -223,12 +154,6 @@ img[src="images/fond-plus2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-@media screen and (max-width:500px) and (min-width:320px){
-    .titres {
-        margin-left: 16.7%;
-    }
 }
 
 
@@ -266,18 +191,7 @@ img[src="images/fond-plus2.png"] {
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:501px){
-    .a-propos h4 {
-        font-size: 2em;
-    }
-}
 
-@media screen and (max-width:500px) and (min-width:320px){
-    .a-propos h4 {
-        font-size: 1.5em;
-        margin-top:1em;
-    }
-}
 .a-propos p {
     transform: rotate(5deg);
     width: 32%;
@@ -304,13 +218,6 @@ img[src="images/fond-plus2.png"] {
     .a-propos p{
         font-size: 1em;
         width:50%;
-    }
-}
-
-@media screen and (max-width:1000px) and (min-width:320px){
-    .a-propos p {
-        font-size:0.9em;
-        width:80%;
     }
 }
 
@@ -343,7 +250,6 @@ img[src="images/fond-plus2.png"] {
     .les-parcelles{
         margin-top:-22em;
         margin-left:-17%;
-
     }
 }
 
@@ -353,7 +259,6 @@ img[src="images/fond-plus2.png"] {
         transform:rotate(4deg);
         width:140%;
         margin-left:-19%;
-
     }
 }
 
@@ -369,14 +274,6 @@ img[src="images/fond-plus2.png"] {
     }
 }
 
-@media screen and (max-width:500px) and (min-width:320px){
-    .les-parcelles {
-        margin-top:-32em;
-        margin-left:-60%;
-        width:230%;
-    }
-}
-
 .les-parcelles h4 {
     font-family: 'Lato', sans-serif;
     font-size: 2.7em;
@@ -387,14 +284,13 @@ img[src="images/fond-plus2.png"] {
 @media screen and (max-width:1600px){
     .les-parcelles h4 {
         margin-top:-9em;
-
+        font-size: 2.5em;
     }
 }
 
 @media screen and (max-width:1400px){
     .les-parcelles h4{
         transform:rotate(-4deg);
-        font-size: 2.5em;
     }
 }
 
@@ -408,13 +304,6 @@ img[src="images/fond-plus2.png"] {
         margin-top:-16em;
         transform:rotate(-3deg);
         font-size: 2em;
-    }
-}
-    @media screen and (max-width:500px) and (min-width:320px){
-    .les-parcelles h4 {
-        font-size: 1.5em;
-        margin-left:4em;
-        margin-top:-28em;
     }
 }
 
@@ -460,8 +349,6 @@ h4 .plus:hover {
     margin: 10px;
 }
 
-
-
 .les-parcelles h5 {
     font-family: 'Lato', sans-serif;
     font-size: 2.3em;
@@ -489,12 +376,6 @@ h4 .plus:hover {
     .les-parcelles h5{
         transform:rotate(-3deg);
         font-size: 1.6em;
-    }
-}
-   @media screen and (max-width:500px) and (min-width:320px){
-    .les-parcelles h5 {
-        font-size: 1.4em;
-        margin-left:4.5em;
     }
 }
 
@@ -554,13 +435,7 @@ h4 .plus:hover {
         transform:rotate(-3deg);
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .chateau-grand-peyrou {
-        margin-top:-42.5em;
-        margin-left:-25%;
-        width:135%;
-    }
-}
+
 .chateau-grand-peyrou h4 {
     transform: rotate(5deg);
     font-family: 'Lato', sans-serif;
@@ -571,15 +446,13 @@ h4 .plus:hover {
 
 @media screen and (max-width:1600px){
     .chateau-grand-peyrou h4 {
-
+        font-size: 2.5em;
     }
 }
 
 @media screen and (max-width:1400px){
     .chateau-grand-peyrou h4{
         transform:rotate(4deg);
-        font-size: 2.5em;
-
     }
 }
 
@@ -594,13 +467,6 @@ h4 .plus:hover {
         transform:rotate(3deg);
         font-size: 2em;
     }
-}
-  @media screen and (max-width:500px) and (min-width:320px){
-    .chateau-grand-peyrou h4 {
-        font-size: 1.5em;
-        margin-left:2em;
-        margin-top:-28em;
-      }
 }
 
 .chateau-grand-peyrou h4 .encadre {
@@ -624,6 +490,8 @@ h4 .plus:hover {
 @media screen and (max-width:1400px){
     .chateau-grand-peyrou h5{
         font-size: 2em;
+        transform:rotate(4deg);
+
     }
 }
 
@@ -634,16 +502,10 @@ h4 .plus:hover {
 @media screen and (max-width:1070px){
     .chateau-grand-peyrou h5{
         font-size: 1.6em;
+        transform:rotate(3deg);
 
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .chateau-grand-peyrou h5 {
-        font-size: 1.4em;
-        margin-left:2.5em;
-    }
-    }
-
 
 .chateau-grand-peyrou h5 span {
     background-color: black;
@@ -665,13 +527,6 @@ h4 .plus:hover {
     display: flex;
     transition: all ease-in-out 0.5s;
 }
-    @media screen and (max-width:500px) and (min-width:320px){
-    .chateau-lejay {
-        margin-top:-42.5em;
-        margin-left:-25%;
-        width:160%;
-        }
-    }
 
 .chateau-lejay:hover {
     background-image: url(../images/chateau-lejay-flou.jpg);
@@ -709,14 +564,7 @@ h4 .plus:hover {
         font-size: 2em;
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .chateau-lejay h4 {
-        font-size: 1.5em;
-        margin-left:2em;
-        margin-top:-28em;
-    }
-    }
-    
+
 .chateau-lejay h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
@@ -750,13 +598,6 @@ h4 .plus:hover {
         font-size: 1.6em;
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .chateau-lejay h5 {
-        font-size: 1.4em;
-        margin-left:2.5em;
-    }
-    }
-
 
 .chateau-lejay h5 span {
     background-color: black;
@@ -791,7 +632,6 @@ h4 .plus:hover {
     .encre-des-coteaux{
         margin-top:-28em;
         transform:rotate(4deg);
-
     }
 }
 
@@ -812,13 +652,6 @@ h4 .plus:hover {
     }
 }
 
-@media screen and (max-width:500px) and (min-width:320px){
-    .encre-des-coteaux {
-        margin-top:-44.3em;
-        margin-left:-25%;
-        width:160%;
-    }
-    }
 .encre-des-coteaux:hover {
     background-image: url(../images/encre-des-coteaux-flou.jpg);
 }
@@ -842,14 +675,12 @@ h4 .plus:hover {
         transform:rotate(-4deg);
         font-size: 2.5em;
         margin-top:-10em;
-
     }
 }
 
 @media screen and (max-width:1260px){
     .encre-des-coteaux h4{
         margin-top:-12em;
-
     }
 }
 @media screen and (max-width:1070px){
@@ -859,13 +690,6 @@ h4 .plus:hover {
         margin-top:-15em;
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .encre-des-coteaux h4 {
-        font-size: 1.5em;
-        margin-left:0em;
-        margin-top:-28em;
-    }
-    }
 
 .encre-des-coteaux h4 .encadre {
     background-color: #f2ceca;
@@ -902,12 +726,6 @@ h4 .plus:hover {
         transform:rotate(-3deg);
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .encre-des-coteaux h5 {
-        font-size: 1.4em;
-        margin-left:0em;
-    }
-    }
 
 .encre-des-coteaux h5 span {
     background-color: black;
@@ -962,13 +780,7 @@ h4 .plus:hover {
         transform:rotate(3deg);
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .photos {
-        margin-top:-40em;
-        margin-left:-25%;
-        width:145%;
-    }
-    }
+
 .photos:hover {
     background-image: url(../images/photographie-lotus-flou.jpg);
 }
@@ -981,7 +793,6 @@ h4 .plus:hover {
 }
 @media screen and (max-width:1600px){
     .photos h4 {
-
     }
 }
 
@@ -1004,13 +815,7 @@ h4 .plus:hover {
         font-size: 2em;
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .photos h4 {
-        font-size: 1.5em;
-        margin-left:0em;
-        margin-top:-16em;
-    }
-    }
+
 .photos h4 .encadre {
     background-color: #f2ceca;
     padding: 0 10px;
@@ -1045,12 +850,7 @@ h4 .plus:hover {
         transform:rotate(-3deg);
     }
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .photos h5 {
-        font-size: 1.4em;
-        margin-left:0em;
-    }
-    }
+
 .photos h5 span {
     background-color: black;
     padding: 0 10px;
@@ -1066,34 +866,19 @@ h4 .plus:hover {
     padding: 5em;
 }
     
-@media screen and (max-width:500px) and (min-width:320px){
-    .contact {
-        margin-top:-23em;
-    }
-    }
-    
 .contact h4 {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
     font-weight: bold;
     margin: 1em 0 0.5em 0;
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .contact h4 {
-        font-size: 1.5em;
-    }
-    }
 
 .contact h5 {
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     font-weight: 100;
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .contact h5 {
-        font-size: 1.1em;
-    }
-    }
+
 
 .contact a,
 .contact address {
@@ -1101,23 +886,13 @@ h4 .plus:hover {
     text-align: center;
     ;
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .contact a,
-.contact address {
-        font-size: 0.9em;
-    }
-    }
 
 .contact img {
     height: 30px;
     margin: 1em 0 0 0;
     display:block;
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .contact img {
-    height: 20px;
-    }
-}
+
 
 /*******                  FOOTER                       **********/
 
@@ -1131,12 +906,7 @@ h4 .plus:hover {
     flex-direction: column;
     /*change le sens des parametres align-items et justify-content*/
 }
-@media screen and (max-width:500px) and (min-width:320px){
-    .footer {
-    height: 50px;
-        margin-top:-2em;
-    }
-    }
+
 
 img[src="images/fb.svg"] {
     z-index: 1;

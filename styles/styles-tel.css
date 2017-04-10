@@ -1,0 +1,229 @@
+html{
+    min-width:320px;
+    /****    a chercher, ne marche pas     ******/
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:551px) and (min-width:320px){
+    
+    .hero {
+    height:500px;
+    background-position: center;
+    position: relative;
+    right:0;
+    }
+    
+    #logo {
+    height: 70px;
+    margin-left:-1em;
+    margin-top:-1em;
+    }
+    
+    .hero h1 {
+     margin-left:-3.1em;
+     margin-top:-0.5em;
+     font-size: 0.7rem;
+    }
+    
+    .hero h2 {
+    font-size: 2.3rem;
+    margin-top:1em;
+    }
+    
+    .hero h3 {
+    font-size: 1.6rem;
+    }
+    
+    img[src="images/fond-plus2.png"] {
+    display:none;
+    }
+    
+/*******                   A PROPOS                    **********/
+    
+    /* centrage des titres dans tous les projets */
+    .titres {
+        margin-left: 16.7%;
+    }
+    
+    .a-propos h4 {
+        font-size: 1.5em;
+        margin-top:1em;
+    }
+    
+    .a-propos p {
+        font-size:0.9em;
+        width:80%;
+    }
+    
+    /*******                     PROJETS                       **********/
+
+/*******                  LES PARCELLES                       **********/
+    
+    .les-parcelles {
+        margin-top:-32em;
+        margin-left:-60%;
+        width:230%;
+    }
+    
+     .les-parcelles h4 {
+        font-size: 1.5em;
+        margin-left:4em;
+        margin-top:-28em;
+    }
+    
+    .les-parcelles h5 {
+        font-size: 1.4em;
+        margin-left:4.5em;
+    }
+    
+/*******                  GRAND PEYROU                       **********/    
+    
+    .chateau-grand-peyrou {
+        margin-top:-42.5em;
+        margin-left:-25%;
+        width:135%;
+    }
+    
+      .chateau-grand-peyrou h4 {
+        font-size: 1.5em;
+        margin-left:2em;
+        margin-top:-28em;
+      }
+    
+     .chateau-grand-peyrou h5 {
+        font-size: 1.4em;
+        margin-left:2.5em;
+    }
+    
+/*******                  LEJAY                       **********/    
+    
+    .chateau-lejay {
+        margin-top:-42.5em;
+        margin-left:-25%;
+        width:160%;
+        }
+    
+    .chateau-lejay h4 {
+        font-size: 1.5em;
+        margin-left:2em;
+        margin-top:-28em;
+    }
+    
+    .chateau-lejay h5 {
+        font-size: 1.4em;
+        margin-left:2.5em;
+    }
+    
+    /*******                  ENCRE DES COTEAUX                        **********/
+    
+    .encre-des-coteaux {
+        margin-top:-44.3em;
+        margin-left:-25%;
+        width:160%;
+    }
+    
+    .encre-des-coteaux h4 {
+        font-size: 1.5em;
+        margin-left:0em;
+        margin-top:-28em;
+    }
+    
+   .encre-des-coteaux h5 {
+        font-size: 1.4em;
+        margin-left:0em;
+    }
+    
+/*******                  PHOTOS                       **********/    
+    
+    .photos {
+        margin-top:-40em;
+        margin-left:-25%;
+        width:145%;
+    }
+    
+     .photos h4 {
+        font-size: 1.5em;
+        margin-left:0em;
+        margin-top:-16em;
+    }
+    
+    .photos h5 {
+        font-size: 1.4em;
+        margin-left:0em;
+    }
+    
+/*******                  CONTACT                       **********/    
+    
+    .contact {
+        margin-top:-23em;
+    }
+    
+    .contact h4 {
+        font-size: 1.5em;
+    }
+    
+     .contact h5 {
+        font-size: 1.1em;
+    }
+    
+    .contact a,
+.contact address {
+        font-size: 0.9em;
+    }
+    
+    .contact img {
+    height: 20px;
+    }
+    
+/*******                  FOOTER                       **********/    
+    
+    .footer {
+    height: 50px;
+    margin-top:-2em;
+    }
+    
+    .footer #remonter {
+    display:none;
+}
+    img[src="images/fb.svg"] {
+    display:none;
+}
+    
+    @media screen and (max-width:551px) and (min-width:450px){
+    .photos h4 {
+        margin-top:-12em;
+    }
+    
+        .contact {
+   margin-top:-20em;
+    }
+        }
+    
+    @media screen and (max-width:551px) and (min-width:500px){
+        .photos {
+        width:135%;
+    }
+     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

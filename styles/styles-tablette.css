@@ -1,0 +1,296 @@
+@media screen and (max-width:1070px) and (min-width:801px){
+    
+    .hero {
+    height:800px;
+    }
+    
+    #logo {
+    height: 75px;
+    }
+    
+    .hero h1 {
+    }
+    
+    .hero h2 {
+    font-size: 2.3rem;
+    margin-top:1em;
+    }
+    
+    .hero h3 {
+    font-size: 1.8rem;
+    }
+    
+    img[src="images/fond-plus2.png"] {
+    display:none;
+    }
+    
+    nav{}
+    
+/*******                   A PROPOS                    **********/    
+    
+    .a-propos h4 {
+        font-size: 2em;
+    }
+    
+    .a-propos p {
+        font-size:0.9em;
+        width:80%;
+    }
+    
+/*******                  LES PARCELLES                       **********/    
+    
+    .les-parcelles {
+        margin-top:-32em;
+        margin-left:-60%;
+        width:230%;
+    }
+    
+    .les-parcelles h4{
+        margin-left:60%;
+        font-size: 2em;
+    }
+    
+     .les-parcelles h5{
+        margin-left:60%;
+    }
+    
+/*******                  GRAND PEYROU                       **********/    
+    
+    .chateau-grand-peyrou {
+        width:125%;
+        height: 1100px;
+    }
+    
+    .chateau-grand-peyrou h4 {
+        margin-top:-18em;
+    }
+    
+/*******                  LEJAY                       **********/    
+    
+    .chateau-lejay {
+        margin-top:-36em;
+        margin-left:-60%;
+        width:200%;
+    }
+    
+    .chateau-lejay h4{
+        margin-left:60%;
+    }
+    
+    .chateau-lejay h5{
+        margin-left:60%;
+    }
+    
+/*******                  ENCRE DES COTEAUX                        **********/    
+    
+     .encre-des-coteaux {
+        width:145%;
+        height: 1100px;
+    }
+    
+    /*******                  PHOTOS                       **********/
+    
+     .photos {
+        margin-top:-40em;
+        margin-left:-25%;
+        width:145%;
+         margin-bottom:15em;
+    }
+    
+/*******                  CONTACT                       **********/    
+    
+    }
+    
+@media screen and (max-width:1000px) and (min-width:651px){
+    .contact h4 {
+        margin-top:-5em;
+    }
+    }
+}
+@media screen and (max-width:650px) and (min-width:450px){
+    .contact h4 {
+        margin-top:2em;
+    }
+    }
+    
+/*******                  FOOTER                       **********/
+
+@media screen and (max-width:1070px) and (min-width:551px){
+    .footer {
+    height: 70px;
+    margin-top:-2em;
+    }
+    
+    
+    }
+
+
+
+
+/*******-------------------------------------------
+-------------------------DEUXIEME TAILLE------------------------------
+-----------------------------------------**********/
+
+
+
+
+@media screen and (max-width:800px) and (min-width:551px){
+    
+    .hero {
+    height:700px;
+    }
+    
+    #logo {
+    height: 75px;
+    }
+    
+    .hero h1 {
+    margin-left:-0.5em;
+    }
+    
+    .hero h2 {
+    font-size: 2.3rem;
+    margin-top:1em;
+    }
+    
+    .hero h3 {
+    font-size: 1.8rem;
+    }
+    
+    img[src="images/fond-plus2.png"] {
+    display:none;
+    }
+    
+    nav{}
+    
+/*******                   A PROPOS                    **********/    
+    
+    .a-propos h4 {
+        font-size: 2em;
+        margin-left:2em;
+        margin-top:1em;
+    }
+    
+    .a-propos p {
+        font-size:0.9em;
+        width:80%;
+        margin-left:2.5em;
+    }
+    
+/*******                  LES PARCELLES                       **********/    
+    
+    .les-parcelles {
+        margin-top:-32em;
+        margin-left:-60%;
+        width:230%;
+    }
+    
+    .les-parcelles h4{
+        margin-left:60%;
+        font-size: 2em;
+        margin-top:-17.5em;
+    }
+    
+     .les-parcelles h5{
+        margin-left:60%;
+    }
+    
+/*******                  GRAND PEYROU                       **********/    
+    
+    .chateau-grand-peyrou {
+        width:125%;
+        height: 1100px;
+    }
+    
+    .chateau-grand-peyrou h4 {
+        margin-top:-20em;
+        margin-left:-5%;
+    }
+    
+/*******                  LEJAY                       **********/    
+    
+    .chateau-lejay {
+        margin-top:-41em;
+        margin-left:-60%;
+        width:200%;
+    }
+    
+    .chateau-lejay h4{
+        margin-top:-18em;
+        margin-left:75%;
+        display:inline-block;
+    }
+    
+    .chateau-lejay h5{
+        margin-left:75%;
+    }
+    
+/*******                  ENCRE DES COTEAUX                        **********/    
+    
+     .encre-des-coteaux {
+        width:145%;
+        height: 1100px;
+         
+    }
+    .encre-des-coteaux h4{
+        margin-left:-20%;
+        margin-top:-19em;
+    }
+    .encre-des-coteaux h5{
+        margin-left:-20%;
+    }
+    
+    /*******                  PHOTOS                       **********/
+    
+     .photos {
+        margin-top:-40em;
+        margin-left:-25%;
+        width:130%;
+         margin-bottom:-15em;
+    }
+    
+    .photos h4{
+        margin-left:15%;
+        margin-top:-7em;
+    }
+    .photos h5{
+        margin-left:15%;
+    }
+    
+/*******                  CONTACT                       **********/    
+    
+
+    
+/*******                  FOOTER                       **********/
+
+@media screen and (max-width:1070px) and (min-width:551px){
+    .footer {
+    height: 70px;
+    margin-top:-2em;
+    }
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
