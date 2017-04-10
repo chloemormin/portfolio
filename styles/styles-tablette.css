@@ -259,8 +259,23 @@
     
 /*******                  CONTACT                       **********/    
     
-
+@media screen and (max-width:726px) and (min-width:651px){
+    .photos {
+         margin-bottom:0em;
+    }
+    .contact{
+        padding-top:15%;
+    }
+    }
     
+    @media screen and (max-width:800px) and (min-width:725px){
+    .photos {
+         margin-bottom:0em;
+    }
+    .contact{
+        padding-top:21%;
+    }
+    }
 /*******                  FOOTER                       **********/
 
 @media screen and (max-width:1070px) and (min-width:551px){
