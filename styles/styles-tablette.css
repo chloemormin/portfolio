@@ -74,11 +74,11 @@
     }
     
     .chateau-lejay h4{
-        margin-left:60%;
+        margin-left:75%;
     }
     
     .chateau-lejay h5{
-        margin-left:60%;
+        margin-left:75%;
     }
     
 /*******                  ENCRE DES COTEAUX                        **********/    
@@ -88,20 +88,41 @@
         height: 1100px;
     }
     
+    .encre-des-coteaux h4 {
+        margin-top:-18em;
+        margin-left:-15%;
+
+    }
+    
+    .encre-des-coteaux h5 {
+        margin-left:-15%;
+    }
+    
     /*******                  PHOTOS                       **********/
     
      .photos {
         margin-top:-40em;
         margin-left:-25%;
         width:145%;
-         margin-bottom:15em;
+         margin-bottom:10em;
+         height:550px;
+    }
+    
+    .photos h4 {
+        margin-top:0em;
+        margin-left:15%;
+
+    }
+    
+    .photos h5 {
+        margin-left:15%;
     }
     
 /*******                  CONTACT                       **********/    
     
     }
     
-@media screen and (max-width:1000px) and (min-width:651px){
+@media screen and (max-width:1070px) and (min-width:651px){
     .contact h4 {
         margin-top:-5em;
     }
