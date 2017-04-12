@@ -69,6 +69,7 @@ img["../images/retour2.png"] {
     background-color: #f5eeea;
     transform: rotate(-5deg);
     width: 130%;
+    min-height:16em;
     margin-left: -15%;
     margin-top: -12em;
     display: flex;
@@ -108,6 +109,7 @@ section p span {
     margin-bottom: 5%;
 }
 
+
 .colonne {
     display: flex;
     flex-direction: column;
@@ -118,10 +120,24 @@ img[src="images/affiche-encre-des-coteaux.jpg"] {
     max-width: 100%;
 }
 
+@media screen and (max-width:1600px){
+    img[src="images/affiche-encre-des-coteaux.jpg"]{
+    width: 60%;
+    height: 100%;
+    }
+}
+
 img[src="images/zoom2-encre-des-coteaux2.jpg"],
 img[src="images/zoom1-encre-des-coteaux2.jpg"] {
     padding: 0 0 0.5em 0.5em;
     max-width: 100%;
+}
+
+@media screen and (max-width:1600px){
+    img[src="images/encre-des-coteaux2.jpg"]{
+    width: 30%;
+    height: 100%;
+    }
 }
 
 
