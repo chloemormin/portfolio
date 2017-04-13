@@ -55,8 +55,9 @@ img["../images/retour2.png"] {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+/*    justify-content: center;*/
     align-items: center;
+    
 }
 
 .diagonale {
@@ -67,21 +68,19 @@ img["../images/retour2.png"] {
     margin-top: -12em;
     display: flex;
     justify-content: center;
+
 }
 
 .CADRE_IMG{
-    width:43%;
-    height:25em;
+/*    width:43%;*/
 }
 
 img[src="images/photographie-lotus.jpg"] {
     transform: rotate(5deg);
-/*    margin: -194px -10%;*/
     margin-top: 4em;
-    width:100%;
-    height:auto;
-/*    width: 43%;*/
-/*    height: 100%;*/
+   
+/*    width:100%;*/
+/*    height:auto;*/
 }
 
 section p span {
@@ -90,24 +89,20 @@ section p span {
 }
 
 .photo-duo {
-    margin-top: 13em;
-/*    max-width: 28.5%;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: wrap;
-/*    margin-bottom: 5%;*/
-/*    margin-left: -15%;*/
-    width:50%;
-    height:25em;
+    margin-top: 1em;
+/*    margin-left: 13.5%;*/
+    position:relative;
+    z-index:1;
+/*    width:auto;*/
 }
 
 img[src="images/bourgeon.jpg"],
 img[src="images/fleur1.jpg"] {
-/*    max-width: 100%;*/
-    max-width:100%;
-    height:auto;
+/*    width:33%;*/
+/*    height:auto;*/
     padding: 0 0 1em 1em;
+        
+
 }
 
 
