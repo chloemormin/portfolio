@@ -1,3 +1,4 @@
+@@ -1,178 +0,0 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 body {
     overflow-x: hidden;
@@ -57,15 +58,10 @@ img["../images/retour2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* 
-    test nouvelles diagonale
-    background-image: url(images/zone-grise.png);
-    background-position: center;
-    background-size: 100%;*/
+   
 }
 
 .diagonale {
-    /*background-color: #434343;*/
     background-color: #f5eeea;
     transform: rotate(-5deg);
     width: 130%;
@@ -175,4 +171,4 @@ img[src="images/fb.svg"] {
 
 .footer #remonter:hover {
     text-decoration: underline;
-}
+} 
