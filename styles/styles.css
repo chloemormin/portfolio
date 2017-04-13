@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 
+html{
+    min-width: 320px;
+}
 
 body {
     overflow-x: hidden;
@@ -154,8 +157,16 @@ img[src="images/fond-plus2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    /*opacity: 0;
+    transition: all linear 1s;
+    position:relative;
 
+
+}
+.titres:hover{
+    opacity:1;
+}*/
+}
 
 .a-propos {
     background-color: white;
@@ -229,22 +240,39 @@ img[src="images/fond-plus2.png"] {
 /*******                  LES PARCELLES                       **********/
 
 .les-parcelles {
-    background-image: url(../images/les-parcelles2-black2.jpg);
-    background-size: 90%;
-    background-repeat: no-repeat;
+    
     transform: rotate(5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
     height: 1000px;
     display: flex;
-    transition: all ease-in-out 0.5s;
-}
-
-.les-parcelles:hover {
-    background-image: url(../images/les-parcelles2-black2-flou.jpg);
+    transition: all linear 0.5s;
+    overflow:hidden;
 
 }
+
+
+.les-parcelles img:hover {
+/*    background-image: url(../images/les-parcelles2-black2-flou.jpg);*/
+    filter:blur(5px);
+
+   
+}
+.les-parcelles img{
+    width: 100%;
+     display:flex;
+     align-items: center;
+}
+
+ .overlay {
+     
+   /*  background-image: url(../images/les-parcelles2-black2.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;*/
+     
+}
+
 
 @media screen and (max-width:1600px){
     .les-parcelles{
@@ -280,6 +308,12 @@ img[src="images/fond-plus2.png"] {
     font-weight: bold;
     transform: rotate(-5deg);
     margin-top: -6em;
+    position:relative;
+    z-index:100;
+        
+
+   
+  
 }
 @media screen and (max-width:1600px){
     .les-parcelles h4 {
