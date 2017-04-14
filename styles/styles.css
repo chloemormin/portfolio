@@ -932,7 +932,7 @@ h4 .plus:hover {
 
 .footer {
     background-color: #434343;
-    height: 100px;
+     height: 100px;
     min-width: 100%;
     display: flex;
     align-items: center;
@@ -941,6 +941,48 @@ h4 .plus:hover {
     /*change le sens des parametres align-items et justify-content*/
 }
 
+.position{
+    width:10px;
+    height:auto;
+    position:relative;
+    display:flex;
+    align-items: center;
+
+}
+
+.footer #remonter {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    text-align:center;
+}
+
+.footer #remonter:hover {
+    text-decoration: underline;
+}
+
+img[src="images/haut.png"]{
+    position:absolute;
+    left:calc( ( 100% - 5px ) / 2 )
+/*    margin-left:2em;*/
+/*    margin-bottom:1em*/
+    animation: myanim 2s linear infinite;
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate;
+}
+
+/* Code for old Chrome, Safari and Opera */
+@-webkit-keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+/* Standard syntax */
+@keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
+}
 
 img[src="images/fb.svg"] {
     z-index: 1;
@@ -952,15 +994,4 @@ img[src="images/fb.svg"] {
     margin-right: -3em;
     margin-top: -1.5em;
     align-self: flex-end;
-}
-
-.footer #remonter {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-}
-
-.footer #remonter:hover {
-    text-decoration: underline;
 }
