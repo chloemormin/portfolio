@@ -156,6 +156,18 @@ img[src="images/fond-plus2.png"] {
     align-items: center;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 11.3%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .a-propos {
     background-color: white;
@@ -229,21 +241,29 @@ img[src="images/fond-plus2.png"] {
 /*******                  LES PARCELLES                       **********/
 
 .les-parcelles {
-    background-image: url(../images/les-parcelles2-black2.jpg);
-    background-size: 90%;
-    background-repeat: no-repeat;
     transform: rotate(5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
     height: 1000px;
     display: flex;
-    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
 }
 
-.les-parcelles:hover {
-    background-image: url(../images/les-parcelles2-black2-flou.jpg);
+.les-parcelles:hover .image {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
 
+.les-parcelles .image {
+    background-image: url(../images/les-parcelles2-black2.jpg);
+    height: 110%;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px -10px -10px -5px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:1600px){
@@ -339,15 +359,7 @@ img[src="images/fond-plus2.png"] {
     }
 }
 
-h4 .plus:hover {
-    -webkit-animation-name: rotate;
-    -webkit-animation-duration: 4.5s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-transition-timing-function: linear;
-    transform-origin: 50% 50%;
-    transition-duration: 1s;
-    margin: 10px;
-}
+
 
 .les-parcelles h5 {
     font-family: 'Lato', sans-serif;
@@ -388,20 +400,30 @@ h4 .plus:hover {
 /*******                  GRAND PEYROU                       **********/
 
 .chateau-grand-peyrou {
-    background-image: url(../images/chateau-grand-peyrou.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     transform: rotate(-5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
     height: 1000px;
     display: flex;
-    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
 }
 
-.chateau-grand-peyrou:hover {
-    background-image: url(../images/chateau-grand-peyrou-flou.jpg);
+
+.chateau-grand-peyrou:hover .image {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.chateau-grand-peyrou .image{
+    background-image: url(../images/chateau-grand-peyrou.jpg);
+    height: 110%;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px -10px -10px -5px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:1600px){
@@ -516,20 +538,29 @@ h4 .plus:hover {
 /*******                  LEJAY                       **********/
 
 .chateau-lejay {
-    background-image: url(../images/chateau-lejay.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     transform: rotate(-5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
     height: 1000px;
     display: flex;
-    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
 }
 
-.chateau-lejay:hover {
-    background-image: url(../images/chateau-lejay-flou.jpg);
+.chateau-lejay:hover .image {
+-webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.chateau-lejay .image{
+    background-image: url(../images/chateau-lejay.jpg);
+    height: 110%;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px -10px -10px -5px;
+    transition: 0.5s;
 }
 
 .chateau-lejay h4 {
@@ -609,15 +640,29 @@ h4 .plus:hover {
 
 .encre-des-coteaux {
     background-image: url(../images/encre-des-coteaux.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    transform: rotate(5deg);
+   transform: rotate(5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
-    height: 1000px;
+    height: 1050px;
     display: flex;
-    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.encre-des-coteaux:hover .image {
+    -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.encre-des-coteaux .image{
+    background-image: url(../images/encre-des-coteaux.jpg);
+    height: 110%;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px -10px -10px -5px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:1600px){
@@ -652,9 +697,7 @@ h4 .plus:hover {
     }
 }
 
-.encre-des-coteaux:hover {
-    background-image: url(../images/encre-des-coteaux-flou.jpg);
-}
+
 
 .encre-des-coteaux h4 {
     transform: rotate(-5deg);
@@ -736,23 +779,36 @@ h4 .plus:hover {
 /*******                  PHOTOS                       **********/
 
 .photos {
-    background-image: url(../images/photographie-lotus.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    transform: rotate(5deg);
+    transform: rotate(-5deg);
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
     height: 800px;
     display: flex;
-    transition: all ease-in-out 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.photos:hover .image {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.photos .image{
+    background-image: url(../images/photographie-lotus.jpg);
+    height: 110%;
+    width: 110%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -5px -10px -10px -5px;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:1600px){
     .photos{
         margin-top:-24em;
         width:145%;
-        transform:rotate(5deg);
+        transform:rotate(-5deg);
         height:700px;
     }
 }
@@ -760,7 +816,7 @@ h4 .plus:hover {
 @media screen and (max-width:1400px){
     .photos{
         margin-top:-28em;
-        transform:rotate(4deg);
+        transform:rotate(-4deg);
     }
 }
 
@@ -777,16 +833,14 @@ h4 .plus:hover {
         width:115%;
         margin-top:-35em;
         margin-left:-10%;
-        transform:rotate(3deg);
+        transform:rotate(-3deg);
     }
 }
 
-.photos:hover {
-    background-image: url(../images/photographie-lotus-flou.jpg);
-}
+
 
 .photos h4 {
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
     font-family: 'Lato', sans-serif;
     font-size: 2.7em;
     font-weight: bold;
@@ -798,7 +852,7 @@ h4 .plus:hover {
 
 @media screen and (max-width:1400px){
     .photos h4{
-        transform:rotate(-4deg);
+        transform:rotate(4deg);
         font-size: 2.5em;
     }
 }
@@ -811,7 +865,7 @@ h4 .plus:hover {
 @media screen and (max-width:1070px){
     .photos h4{
         margin-top:-9em;
-        transform:rotate(-3deg);
+        transform:rotate(3deg);
         font-size: 2em;
     }
 }
@@ -826,7 +880,7 @@ h4 .plus:hover {
     font-size: 2.3em;
     font-weight: 100;
     color: #fff;
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
 }
 @media screen and (max-width:1600px){
     .photos h5 {
@@ -836,7 +890,7 @@ h4 .plus:hover {
 @media screen and (max-width:1400px){
     .photos h5{
         font-size: 2em;
-        transform:rotate(-4deg);
+        transform:rotate(4deg);
     }
 }
 
@@ -847,7 +901,7 @@ h4 .plus:hover {
 @media screen and (max-width:1070px){
     .photos h5{
         font-size: 1.6em;
-        transform:rotate(-3deg);
+        transform:rotate(3deg);
     }
 }
 
