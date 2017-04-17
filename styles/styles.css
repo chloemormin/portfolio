@@ -130,14 +130,13 @@ img[src="images/fond-plus2.png"] {
 @media screen and (max-width:1400px){
     img[src="images/fond-plus2.png"]{
     width: 220%;
-    height: 220%;
+    height: 200%;
     }
 }
 
 @media screen and (max-width:1200px){
     img[src="images/fond-plus2.png"]{
-    width: 240%;
-    height: 240%;
+    display:none;
     }
 }
 
@@ -176,6 +175,7 @@ img[src="images/fond-plus2.png"] {
     margin-left: -15%;
     margin-top: -10%;
     height: 900px;
+    
 }
 
 .a-propos h4 {
@@ -195,13 +195,10 @@ img[src="images/fond-plus2.png"] {
 
 @media screen and (max-width:1400px){
     .a-propos h4{
+        
     }
 }
 
-@media screen and (max-width:1260px){
-    .a-propos h4{
-    }
-}
 
 
 .a-propos p {
@@ -967,30 +964,51 @@ img[src="images/fond-plus2.png"] {
     position:relative;
     display:flex;
     align-items: center;
+    margin-top:1em;
 
 }
 
 .footer #remonter {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-    text-align:center;
+    opacity:0;
+    padding:1em;
+    margin-top:0.5em;
+    position:absolute;
+    left:calc( ( 100% - 85px ) / 2 );
 }
 
 .footer #remonter:hover {
-    text-decoration: underline;
+    opacity:1;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    padding:1em;
 }
 
-img[src="images/haut.png"]{
-    position:absolute;
-    left:calc( ( 100% - 5px ) / 2 )
+
+.animated{
+        margin-top:-1.5em;
+        padding-bottom:2em;
+        position:absolute;
+        left:calc( ( 100% - 12px ) / 2 );
 /*    margin-left:2em;*/
 /*    margin-bottom:1em*/
     animation: myanim 2s linear infinite;
     -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
     animation-direction: alternate;
+    -webkit-animation-play-state: running
 }
+
+.animated:hover{
+    animation: stop;
+}
+
+.animated.off {
+		-moz-animation-name: none;
+	-webkit-animation-name: none;
+	-ms-animation-name: none;
+		animation-name: none;	
+	}
 
 /* Code for old Chrome, Safari and Opera */
 @-webkit-keyframes myanim {
@@ -1003,6 +1021,8 @@ img[src="images/haut.png"]{
     from {top: 0px;}
     to {top: 10px;}
 }
+
+
 
 img[src="images/fb.svg"] {
     z-index: 1;

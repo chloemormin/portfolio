@@ -9,6 +9,7 @@
     }
     
     .hero h1 {
+        margin-top:2em;
     }
     
     .hero h2 {
@@ -30,39 +31,49 @@
     
     .a-propos h4 {
         font-size: 2em;
+        margin-top:-1em;
+
+
     }
     
     .a-propos p {
         font-size:0.9em;
-        width:80%;
+        width:70%;
+        padding-bottom:4em;
     }
+    
     
 /*******                  LES PARCELLES                       **********/    
     
     .les-parcelles {
         margin-top:-32em;
         margin-left:-60%;
-        width:230%;
+        width:200%;
+        height:800px;
+        margin-bottom:20em;
+
     }
     
     .les-parcelles h4{
-        margin-left:60%;
+        margin-left:70%;
         font-size: 2em;
+        margin-top:-6em;
     }
     
      .les-parcelles h5{
-        margin-left:60%;
+        margin-left:70%;
     }
     
 /*******                  GRAND PEYROU                       **********/    
     
     .chateau-grand-peyrou {
         width:125%;
-        height: 1100px;
+        height:800px;
+        margin-bottom:20em;
     }
     
     .chateau-grand-peyrou h4 {
-        margin-top:-18em;
+        margin-top:-7em
     }
     
 /*******                  LEJAY                       **********/    
@@ -71,10 +82,13 @@
         margin-top:-36em;
         margin-left:-60%;
         width:200%;
+        height:900px;
+        margin-bottom:20em;
     }
     
     .chateau-lejay h4{
         margin-left:75%;
+        margin-top:-10em
     }
     
     .chateau-lejay h5{
@@ -84,12 +98,13 @@
 /*******                  ENCRE DES COTEAUX                        **********/    
     
      .encre-des-coteaux {
-        width:145%;
-        height: 1100px;
+        width:135%;
+        height:900px;
+        margin-bottom:20em;
     }
     
     .encre-des-coteaux h4 {
-        margin-top:-18em;
+        margin-top:-10em;
         margin-left:-15%;
 
     }
@@ -104,8 +119,8 @@
         margin-top:-40em;
         margin-left:-25%;
         width:145%;
-         margin-bottom:10em;
-         height:550px;
+        height:600px;
+        margin-bottom:20em;
     }
     
     .photos h4 {
@@ -124,13 +139,14 @@
     
 @media screen and (max-width:1070px) and (min-width:651px){
     .contact h4 {
-        margin-top:-5em;
+        margin-top:-9em;
     }
     }
 }
 @media screen and (max-width:650px) and (min-width:450px){
     .contact h4 {
-        margin-top:2em;
+        margin-top:3em;
+        margin-bottom:-2em;
     }
     }
     
@@ -156,9 +172,11 @@
 
 
 @media screen and (max-width:800px) and (min-width:551px){
+
     
     .hero {
     height:700px;
+        width:100%;
     }
     
     #logo {
@@ -177,7 +195,7 @@
     .hero h3 {
     font-size: 1.8rem;
     }
-    
+   
     img[src="images/fond-plus2.png"] {
     display:none;
     }
@@ -220,7 +238,7 @@
     
     .chateau-grand-peyrou {
         width:125%;
-        height: 1100px;
+        height: 1000px;
     }
     
     .chateau-grand-peyrou h4 {
@@ -249,8 +267,8 @@
 /*******                  ENCRE DES COTEAUX                        **********/    
     
      .encre-des-coteaux {
-        width:145%;
-        height: 1100px;
+        width:125%;
+        height: 800px;
          
     }
     .encre-des-coteaux h4{
@@ -277,7 +295,8 @@
     .photos h5{
         margin-left:15%;
     }
-    
+}
+
 /*******                  CONTACT                       **********/    
     
 @media screen and (max-width:726px) and (min-width:651px){
@@ -297,6 +316,7 @@
         padding-top:21%;
     }
     }
+     
 /*******                  FOOTER                       **********/
 
 @media screen and (max-width:1070px) and (min-width:551px){

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/styles-tel.css">
     <link rel="stylesheet" href="styles/styles-tablette.css">
-    <link href="images/faviconCM.jpg" rel="icon" type="image/png">
+    <link href="images/faviconCM.jpg" rel="icon" type="image/jpg">
     </head>
 
 <body>
@@ -78,7 +78,8 @@
                 <br/>33310 Lormont </address> <img src="images/logopetit.png" id="logopetit"> </div>
     <div class="footer"> 
         <div class="position">
-        <a id="remonter" href="#haut"> <img src="images/haut.png"><br>Remonter</a>
+            <img src="images/haut.png" id="stop" class="animated">
+            <a id="remonter" href="#haut"> <br>Remonter</a>
         </div>
         
         <a id="facebook" href="https://www.facebook.com/ChloeImagine/"> <img src="images/fb.svg"></a>
@@ -95,6 +96,18 @@
     });
 
 }); 
+        //stop animation fleche "haut" au hover
+        (function( $ ) {
+	$(function() {
+		$( "#stop" ).hover(function() {
+			$( "#animated" ).addClass( "off" );
+		});
+		$( "#start" ).hover(function() {
+			$( "#animated" ).removeClass( "off" );
+		});
+	});
+
+})( jQuery );
 
         /*apparition textes les parcelles
         $("#apparition").hide();
