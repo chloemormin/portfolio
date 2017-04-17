@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
-    height: 1100px;
+    height: 1400px;
 }
 
 
@@ -89,6 +89,23 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:1750px){
+    .hero h2{
+    margin-top:1em;
+    }
+}
+
+@media screen and (max-width:1600px){
+    .hero h2{
+    margin-top:3em;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .hero h2{
+    margin-top:3.5em;
+    }
+}
 
 @media screen and (max-width:1260px){
     .hero h2{
@@ -144,7 +161,7 @@ img[src="images/fond-plus2.png"] {
 /*******                   A PROPOS                    **********/
 
 
-/* centrage des titres dans tous les projets */
+/* centrage des titres dans a propos ? */
 
 .titres {
     margin-left: 11.3%;
@@ -173,7 +190,7 @@ img[src="images/fond-plus2.png"] {
     transform: rotate(-5deg);
     width: 130%;
     margin-left: -15%;
-    margin-top: -10%;
+    margin-top: -7%;
     height: 900px;
     
 }
@@ -183,19 +200,18 @@ img[src="images/fond-plus2.png"] {
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
-    padding-top: 4.5em;
+    padding-top: 5.5em;
 }
 
 
 @media screen and (max-width:1600px){
     .a-propos h4 {
-        font-size: 2.5em;
+        font-size: 2em;
 }
 }
 
 @media screen and (max-width:1400px){
     .a-propos h4{
-        
     }
 }
 
@@ -208,7 +224,7 @@ img[src="images/fond-plus2.png"] {
     font-family: 'Lato', sans-serif;
     weight: 100;
     text-align: center;
-    font-size:1em;
+    font-size:1.2em;
 }
 
 @media screen and (max-width:1600px){
@@ -241,8 +257,8 @@ img[src="images/fond-plus2.png"] {
     transform: rotate(5deg);
     width: 130%;
     margin-left: -15%;
-    margin-top: -18em;
-    height: 1000px;
+    margin-top: -15em;
+    height: 1300px;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -401,7 +417,7 @@ img[src="images/fond-plus2.png"] {
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
-    height: 1000px;
+    height: 1300px;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -539,7 +555,7 @@ img[src="images/fond-plus2.png"] {
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
-    height: 1000px;
+    height: 1300px;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -641,7 +657,7 @@ img[src="images/fond-plus2.png"] {
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
-    height: 1050px;
+    height: 1300px;
     display: flex;
     overflow: hidden;
     position: relative;
@@ -780,7 +796,7 @@ img[src="images/fond-plus2.png"] {
     width: 130%;
     margin-left: -15%;
     margin-top: -18em;
-    height: 800px;
+    height: 1200px;
     display: flex;
     overflow: hidden;
     position: relative;

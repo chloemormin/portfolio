@@ -45,17 +45,22 @@ body {
     
     /* centrage des titres dans tous les projets */
     .overlay {
-        margin-left: 16.7%;
+        margin-left:17%;
     }
     
     .a-propos h4 {
         font-size: 1.5em;
         margin-top:-1em;
+        margin-left:2em;
+
     }
     
     .a-propos p {
         font-size:0.9em;
         width:80%;
+        text-align: justify;
+        margin-left:2em;
+
     }
     
     /*******                     PROJETS                       **********/
@@ -63,34 +68,37 @@ body {
 /*******                  LES PARCELLES                       **********/
     
     .les-parcelles {
-        margin-top:-32em;
-        margin-left:-60%;
+        margin-top:-34em;
+        margin-left:-25%;
         width:230%;
+        height:500px;
+
     }
     
      .les-parcelles h4 {
         font-size: 1.5em;
-        margin-left:4em;
-        margin-top:-28em;
+        margin-left:-4em;
+        margin-top:-6em;
     }
     
     .les-parcelles h5 {
         font-size: 1.4em;
-        margin-left:4.5em;
+        margin-left:-4.5em;
     }
     
 /*******                  GRAND PEYROU                       **********/    
     
     .chateau-grand-peyrou {
-        margin-top:-42.5em;
+        margin-top:-10em;
         margin-left:-25%;
         width:135%;
+        height:400px;
     }
     
       .chateau-grand-peyrou h4 {
         font-size: 1.5em;
         margin-left:2em;
-        margin-top:-28em;
+        margin-top:-0em;
       }
     
      .chateau-grand-peyrou h5 {
@@ -101,15 +109,17 @@ body {
 /*******                  LEJAY                       **********/    
     
     .chateau-lejay {
-        margin-top:-42.5em;
+        margin-top:-3em;
         margin-left:-25%;
         width:160%;
+        height:400px;
+
         }
     
     .chateau-lejay h4 {
         font-size: 1.5em;
         margin-left:2em;
-        margin-top:-28em;
+        margin-top:-0em;
     }
     
     .chateau-lejay h5 {
@@ -120,15 +130,17 @@ body {
     /*******                  ENCRE DES COTEAUX                        **********/
     
     .encre-des-coteaux {
-        margin-top:-44.3em;
+        margin-top:-3em;
         margin-left:-25%;
         width:160%;
+        height:650px;
+
     }
     
     .encre-des-coteaux h4 {
         font-size: 1.5em;
         margin-left:0em;
-        margin-top:-28em;
+        margin-top:-13em;
     }
     
    .encre-des-coteaux h5 {
@@ -139,15 +151,17 @@ body {
 /*******                  PHOTOS                       **********/    
     
     .photos {
-        margin-top:-40em;
+        margin-top:-20em;
         margin-left:-25%;
         width:145%;
+        height:350px;
+        margin-bottom:20em;
     }
     
      .photos h4 {
         font-size: 1.5em;
         margin-left:0em;
-        margin-top:-16em;
+        padding-top:10em;
     }
     
     .photos h5 {
@@ -183,6 +197,9 @@ body {
     .footer {
     height: 50px;
     margin-top:-2em;
+    margin-bottom:-2em;
+
+    
     }
     
     .footer #remonter {
@@ -198,15 +215,11 @@ body {
     }
     
         .contact {
-   margin-top:-20em;
+   margin-top:-0em;
     }
         }
     
-    @media screen and (max-width:551px) and (min-width:500px){
-        .photos {
-        width:135%;
-    }
-     }
+   
     
     
     
