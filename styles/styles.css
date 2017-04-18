@@ -183,6 +183,7 @@ img[src="images/fond-plus2.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align:center;
 }
 
 .a-propos {
