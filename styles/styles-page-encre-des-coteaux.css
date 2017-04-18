@@ -14,42 +14,68 @@ body {
     background-position: center;
     height: 500px;
 }
+
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-encre-des-coteaux {
+    height: 450px;
+}
+}
+
 @media screen and (max-width:600px) and (min-width:320px){
     .hero-encre-des-coteaux {
-    height: 300px;
+    height: 400px;
 }
+}
+
+.placement_titres{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    margin-right:2em;
 }
 
 .hero-encre-des-coteaux h1 {
     font-family: 'Lato', sans-serif;
-    padding-top: 4em;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
 }
 
+@media screen and (max-width:1070px) and (min-width:601px){
+.hero-encre-des-coteaux h1 {
+        font-size: 2rem;
+    }
+    }
+
 @media screen and (max-width:600px) and (min-width:320px){
-    .hero-lejay h1 {
-    padding-top: 2em;
-    font-size: 1.5em;
-   
+    .hero-encre-des-coteaux h1 {
+    padding-top: -3em;
+    font-size: 1.8em;
+    text-align: center;
 }
 }
+
 .hero-encre-des-coteaux h2 {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
     font-weight: 100;
-    display: flex;
-    justify-content: center;
 }
 
+ @media screen and (max-width:1070px) and (min-width:601px){
+    .hero-encre-des-coteaux h2 {
+    font-size: 1.8rem;
+    }     
+}
+
+
 @media screen and (max-width:600px) and (min-width:320px){
-    .hero-lejay h2 {
+    .hero-encre-des-coteaux h2 {
     font-size: 1.5em;
+    text-align: center;
 }
 }
-img["../images/retour2.png"] {
+
+img["images/retour2.png"] {
     z-index: 1;
     padding-bottom: 5px;
 }
@@ -79,14 +105,22 @@ img["../images/retour2.png"] {
     justify-content: center;
 }
 
+@media screen and (max-width:1200px) and (min-width:320px){
+    .diagonale {
+    margin-top: -12em;
+    height:15em;
+    }
+}
 
 @media screen and (max-width:1000px) and (min-width:320px){
     .diagonale {
+    margin-top: -12em;
+    max-height:8em;
     }
 }
 
 .centre {
-    margin-left: 25%;
+    margin-left: 23%;
     width:60%;
     display: flex;
     flex-direction: column;
@@ -96,10 +130,24 @@ img["../images/retour2.png"] {
     z-index:1;
 }
 
+@media screen and (max-width:550px) and (min-width:320px){
+    .centre {
+        width:100%;
+        margin-left: 0%;
+}
+}
+
 img[src="images/encre-des-coteaux2.jpg"] {
     margin-top:4em;
     width:100%;
     height:auto;
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/encre-des-coteaux2.jpg"] {
+        width:80%;
+        margin-left: 0%;
+}
 }
 
 section p {
@@ -114,7 +162,14 @@ section p {
 @media screen and (max-width:1200px) and (min-width:320px){
     section p{
     font-size: 1em;
+    }
+}
 
+@media screen and (max-width:550px) and (min-width:320px){
+    section p{
+    width:80%;
+    text-align:center;
+    margin-left:2.7em;
     }
 }
 
@@ -131,6 +186,13 @@ section p span {
     margin-bottom:6em;
 }
 
+@media screen and (max-width:550px) and (min-width:320px){
+    .zoom {
+    display:flex;
+    flex-direction:column;
+    margin-left:10%;
+    }
+}
 
 .colonne {
     display: flex;
@@ -138,17 +200,23 @@ section p span {
     float: right;
 }
 
+@media screen and (max-width:550px) and (min-width:320px){
+    .colonne {
+    width:80%
+}
+}
+
 img[src="images/affiche-encre-des-coteaux.jpg"] {
     width: 60%;
     height: 100%;
 }
 
-/*@media screen and (max-width:1600px){
-    img[src="images/affiche-encre-des-coteaux.jpg"]{
-    width: 60%;
-    height: 100%;
-    }
-}*/
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/affiche-encre-des-coteaux.jpg"] {
+    width:80%;
+    margin-bottom:2em;
+}
+}
 
 img[src="images/zoom2-encre-des-coteaux2.jpg"],
 img[src="images/zoom1-encre-des-coteaux2.jpg"] {
@@ -163,13 +231,77 @@ img[src="images/zoom1-encre-des-coteaux2.jpg"] {
 
 .footer {
     background-color: #434343;
-    height: 100px;
+     height: 100px;
     min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     /*change le sens des parametres align-items et justify-content*/
+}
+
+.position{
+    width:10px;
+    height:auto;
+    position:relative;
+    display:flex;
+    align-items: center;
+    margin-top:1em;
+
+}
+
+.footer #remonter {
+    opacity:0;
+    padding:1em;
+    margin-top:0.5em;
+    position:absolute;
+    left:calc( ( 100% - 85px ) / 2 );
+}
+
+.footer #remonter:hover {
+    opacity:1;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    padding:1em;
+}
+
+
+.animated{
+        margin-top:-1.5em;
+        padding-bottom:2em;
+        position:absolute;
+        left:calc( ( 100% - 12px ) / 2 );
+/*    margin-left:2em;*/
+/*    margin-bottom:1em*/
+    animation: myanim 2s linear infinite;
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.animated:hover{
+    animation: stop;
+}
+
+.animated.off {
+		-moz-animation-name: none;
+	-webkit-animation-name: none;
+	-ms-animation-name: none;
+		animation-name: none;	
+	}
+
+/* Code for old Chrome, Safari and Opera */
+@-webkit-keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+/* Standard syntax */
+@keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
 }
 
 img[src="images/fb.svg"] {
@@ -184,13 +316,34 @@ img[src="images/fb.svg"] {
     align-self: flex-end;
 }
 
-.footer #remonter {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-}
+@media screen and (max-width:1070px) and (min-width:800px){
+    
+    .footer{
+        height:70px;
+    }
+    }
 
-.footer #remonter:hover {
-    text-decoration: underline;
-} 
+@media screen and (max-width:799px) and (min-width:550px){
+    .footer{
+        height:70px;
+    }
+    }
+
+@media screen and (max-width:549px) and (min-width:320px){
+
+    .footer{
+        height:50px;
+        margin-top:-1em;
+    }
+    
+    .footer #remonter {
+    display:none;
+}
+    
+    .animated{
+        display:none;
+}
+    #facebook{
+        display:none;
+    }
+    }
