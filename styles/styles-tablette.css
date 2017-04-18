@@ -9,7 +9,7 @@
     }
     
     .hero h1 {
-        margin-top:2em;
+        font-size: 0.7rem;
     }
     
     .hero h2 {
@@ -29,17 +29,19 @@
     
 /*******                   A PROPOS                    **********/    
     
+    .a-propos{
+        height:870px;
+    }
+    
     .a-propos h4 {
         font-size: 2em;
         margin-top:-1em;
-
-
     }
     
     .a-propos p {
         font-size:0.9em;
         width:70%;
-        padding-bottom:4em;
+        padding-bottom:5em;
     }
     
     
@@ -48,7 +50,7 @@
     .les-parcelles {
         margin-top:-32em;
         margin-left:-60%;
-        width:200%;
+        width:180%;
         height:800px;
         margin-bottom:20em;
 
@@ -132,34 +134,8 @@
     .photos h5 {
         margin-left:15%;
     }
-    
-/*******                  CONTACT                       **********/    
-    
     }
-    
-@media screen and (max-width:1070px) and (min-width:651px){
-    .contact h4 {
-        margin-top:-9em;
-    }
-    }
-}
-@media screen and (max-width:650px) and (min-width:450px){
-    .contact h4 {
-        margin-top:3em;
-        margin-bottom:-2em;
-    }
-    }
-    
-/*******                  FOOTER                       **********/
 
-@media screen and (max-width:1070px) and (min-width:551px){
-    .footer {
-    height: 70px;
-    margin-top:-2em;
-    }
-    
-    
-    }
 
 
 
@@ -204,6 +180,10 @@
     
 /*******                   A PROPOS                    **********/    
     
+    .a-propos {
+        height:900px;
+    }
+    
     .a-propos h4 {
         font-size: 2em;
         margin-left:2em;
@@ -222,6 +202,7 @@
         margin-top:-32em;
         margin-left:-60%;
         width:230%;
+        height:950px;
         padding-bottom:10em;
     }
     
@@ -270,13 +251,15 @@
     
      .encre-des-coteaux {
         width:205%;
-        height: 850px;
-         margin-left:-30%;
-         margin-bottom:12em;
+        height: 900px;
+        margin-left:-30%;
+        margin-bottom:12em;
+        margin-top:-38em;
+
          
     }
     .encre-des-coteaux h4{
-        margin-top:-15em;
+        margin-top:-14em;
     }
     .encre-des-coteaux h5{
     }
@@ -301,48 +284,7 @@
     }
 }
 
-/*******                  CONTACT                       **********/    
-    
 
-@media screen and (max-width:651px) and (min-width:500px){
-    .photos {
-         margin-bottom:0em;
-    }
-    .contact{
-        padding-top:1em;
-        padding-bottom:5em;
-
-    }
-    }
-
-@media screen and (max-width:726px) and (min-width:650px){
-    .photos {
-         margin-bottom:0em;
-    }
-    .contact{
-        padding-top:20em;
-        padding-bottom:-0em;
-
-    }
-    }
-    
-    @media screen and (max-width:800px) and (min-width:725px){
-    .photos {
-         margin-bottom:0em;
-    }
-    .contact{
-        padding-top:30em;
-    }
-    }
-     
-/*******                  FOOTER                       **********/
-
-@media screen and (max-width:1070px) and (min-width:551px){
-    .footer {
-    height: 70px;
-    margin-top:-2em;
-    }
-    }
 
     
     

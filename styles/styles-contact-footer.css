@@ -1,0 +1,98 @@
+    /*******                                  
+                          FORMAT TABLETTE          
+                                                             **********/
+
+@media screen and (max-width:1070px) and (min-width:800px){
+    
+    .contact{
+        padding-bottom:-0em;
+    }
+    
+    .contact h4 {
+        margin-top:-10em;
+    }
+    
+    .footer{
+        height:70px;
+    }
+    }
+
+@media screen and (max-width:799px) and (min-width:550px){
+    
+    .contact{
+    }
+    
+    .contact h4 {
+        margin-top:7em;
+    }
+    
+    .footer{
+        height:70px;
+    }
+    }
+
+
+    /*******                                  
+                          FORMAT PORTABLE          
+                                                             **********/
+
+@media screen and (max-width:549px) and (min-width:320px){
+    
+    .contact{
+        margin-top:-20em;
+
+    }
+    
+    .contact h4 {
+        margin-top:-1em;
+        font-size: 1.6em;
+    }
+    
+    .contact h5 {
+        font-size: 1.1em;
+    }
+    
+    #logopetit{
+        height:20px;
+    }
+    
+    .footer{
+        height:50px;
+        margin-top:-1em;
+    }
+    
+    .footer #remonter {
+    display:none;
+}
+    
+    .animated{
+        display:none;
+}
+    #facebook{
+        display:none;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
