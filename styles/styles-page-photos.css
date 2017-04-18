@@ -6,7 +6,7 @@ body {
 
 /*******                  PAGE PHOTOS                 **********/
 
-.hero-encre-des-coteaux {
+.hero-photo {
     background-image: url("../images/fondpastel.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,16 +14,51 @@ body {
     height: 500px;
 }
 
-.hero-encre-des-coteaux h1 {
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-photo {
+    height: 450px;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-photo {
+    height: 250px;
+}
+}
+
+.hero-photo h1 {
     font-family: 'Lato', sans-serif;
-    padding-top: 4em;
-    font-size: 2em;
+    padding-top: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     display: flex;
     justify-content: center;
+
 }
 
-.hero-encre-des-coteaux h2 {
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-photo h1 {
+        font-size: 2rem;
+    }
+    }
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-photo h1 {
+    padding-top: 2em;
+    font-size: 1.8em;
+}
+}
+
+@media screen and (max-width:490px) and (min-width:320px){
+    .hero-photo h1 {
+    font-size: 1.6em;
+    margin-left:4em;
+    width:80%;
+
+}
+}
+
+.hero-photo h2 {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
     font-weight: 100;
@@ -31,12 +66,34 @@ body {
     justify-content: center;
 }
 
+   @media screen and (max-width:1070px) and (min-width:601px){
+    .hero-photo h2 {
+    font-size: 1.8rem;
+    }     
+}
+
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-photo h2 {
+    font-size: 1.5em;
+        text-align:center;
+}
+}
+@media screen and (max-width:490px) and (min-width:320px){
+    .hero-photo h2 {
+    font-size: 1.3em;
+    margin-left:2em;
+    width:80%;
+
+}
+}
+
 img["../images/retour2.png"] {
     z-index: 1;
     padding-bottom: 5px;
 }
 
-.hero-encre-des-coteaux a {
+.hero-photo a {
     z-index: 1;
     margin: 20px;
     display: block;
@@ -46,7 +103,7 @@ img["../images/retour2.png"] {
     height: 30px;
 }
 
-.hero-encre-des-coteaux a:hover {
+.hero-photo a:hover {
     text-decoration: underline;
 }
 
@@ -61,8 +118,16 @@ img["../images/retour2.png"] {
     justify-content: center;
 }
 
+
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .diagonale {
+        margin-top:-3em;
+}
+}
+
 .centre {
-    margin-left: 25%;
+    margin-left: 22%;
     width:60%;
     display: flex;
     flex-direction: column;
@@ -72,10 +137,36 @@ img["../images/retour2.png"] {
     z-index:1;
 }
 
+@media screen and (max-width:600px) and (min-width:320px){
+    .centre {
+    margin-left: 20%;
+
+}
+}
+
 img[src="images/photographie-lotus.jpg"] {
-    margin-top: 4em;
+    margin-top: -1em;
     width:100%;
     height:auto;
+}
+
+ @media screen and (max-width:1200px) and (min-width:601px){
+    img[src="images/photographie-lotus.jpg"] {
+        margin-top:-3em;
+    }     
+}
+
+@media screen and (max-width:600px) and (min-width:320px){
+    img[src="images/photographie-lotus.jpg"] {
+        margin-top:-5em;
+            margin-left:-2.5em; 
+
+}
+}
+@media screen and (max-width:600px) and (min-width:320px){
+    .photo-duo, img[src="images/photographie-lotus.jpg"] {
+        width:130%;
+}
 }
 
 section p span {
@@ -91,12 +182,30 @@ section p span {
     margin-bottom:6em;
 }
 
+@media screen and (max-width:600px) and (min-width:320px){
+    .photo-duo {
+        flex-direction: column;
+}
+}
+
 img[src="images/bourgeon.jpg"],
 img[src="images/fleur1.jpg"] {
     width:48%;
     height:100%;
 }
 
+@media screen and (max-width:600px) and (min-width:320px){
+    img[src="images/bourgeon.jpg"],
+img[src="images/fleur1.jpg"]  {
+        width:100%;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:320px){
+    img[src="images/fleur1.jpg"]  {
+        margin-top:1em;
+}
+}
 
 /*******                  FOOTER                       **********/
 
