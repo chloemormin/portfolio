@@ -81,6 +81,32 @@ nav a:hover {
     font-weight: bold;
 }
 
+/*------------------------------------------
+   animation-titre-hero
+----------------------------------------*/
+
+.animation-titre-hero {
+  animation-name: pulse;
+  animation-duration: 5s;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
 .hero h2 {
     font-family: 'Lato', sans-serif;
     padding-top: 15%;
@@ -159,6 +185,7 @@ img[src="images/fond-plus2.png"] {
 
 
 /*******                   A PROPOS                    **********/
+
 
 
 /* centrage des titres dans a propos ? */
@@ -1014,14 +1041,18 @@ img[src="images/fond-plus2.png"] {
     padding:1em;
 }
 
+.arrow{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 9px 16px 9px;
+border-color: transparent transparent white transparent;
+}
 
 .animated{
-        margin-top:-1.5em;
-        padding-bottom:2em;
-        position:absolute;
-        left:calc( ( 100% - 12px ) / 2 );
-/*    margin-left:2em;*/
-/*    margin-bottom:1em*/
+    margin-top:-1.5em;
+    position:absolute;
+    left:calc( ( 100% - 18px ) / 2 );
     animation: myanim 2s linear infinite;
     -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
     animation-direction: alternate;

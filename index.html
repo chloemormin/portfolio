@@ -20,11 +20,11 @@
     <header class="hero" id="haut"> <img src="images/logo.svg" id="logo">
         <h1>Chloé Mormin</h1>
         <nav> <a href="#a-propos"> A propos</a> <a href="#projets"> Projets</a> <a href="#contact"> Contact</a> </nav>
-        <h2>UI Designer</h2>
-        <h3>Graphisme &amp; webdesign</h3> <img src="images/fond-plus2.png" alt="Image qui suit la souris" id="image_suit_souris"> </header>
+        <h2 class="animation-titre-hero">UI Designer</h2>
+        <h3 class="animation-titre-hero">Graphisme &amp; webdesign</h3> <img src="images/fond-plus2.png" alt="Image qui suit la souris" id="image_suit_souris"> </header>
     <div class="a-propos">
         <div class="titres">
-            <h4 id="a-propos">A propos</h4>
+            <h4 id="a-propos" >A propos</h4>
             <p>Actuellement en formation UI Designer à Digital Campus, je recherche un stage pour la période du 3 au 28 juillet. Pendant 3 ans, j'ai été graphiste print pour l'association l'Autre Rive, éditrice du mensuel l'Echo des collines. Je complète actuellement mes compétences par l'apprentissage du code HTML/CSS, PHP et JavaScript afin de pouvoir réaliser des sites design et responsive.</p>
         </div>
     </div>
@@ -79,7 +79,7 @@
                 <br/>33310 Lormont </address> <img src="images/logopetit.png" id="logopetit"> </div>
     <div class="footer"> 
         <div class="position">
-            <img src="images/haut.png" id="stop" class="animated">
+            <div id="stop" class="arrow animated"></div>
             <a id="remonter" href="#haut"> <br>Remonter</a>
         </div>
         
@@ -100,7 +100,7 @@
 
 })( jQuery );
 
-        /*apparition textes les parcelles
+        apparition textes les parcelles
         $("#apparition").hide();
         $(window).scroll(function () {
             if ($(window).scrollTop() > 1200) {
@@ -118,7 +118,8 @@
             else {
                 $("#apparition2").fadeOut("fast");
             }
-        });*/
+        });
+        
     </script>
     <script type="text/javascript" src="js/imgsuitsouris.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
