@@ -1016,7 +1016,7 @@ img[src="images/fond-plus2.png"] {
 
 .position{
     width:10px;
-    height:auto;
+    height:10px;
     position:relative;
     display:flex;
     align-items: center;
@@ -1026,9 +1026,9 @@ img[src="images/fond-plus2.png"] {
 
 .footer #remonter {
     opacity:0;
-    padding:1em;
+/*    padding:1em;*/
     margin-top:0.5em;
-    position:absolute;
+    position:relative;
     left:calc( ( 100% - 85px ) / 2 );
 }
 
