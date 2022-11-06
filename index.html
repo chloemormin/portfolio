@@ -17,7 +17,7 @@
     <link href="images/faviconCM.jpg" rel="icon" type="image/jpg">
     </head>
 
-<body>
+<body onload="script();">
     <header class="hero" id="haut"> <img src="images/logo.svg" id="logo">
         <h1>Chloé Mormin</h1>
         <nav> <a href="#a-propos"> A propos</a> <a href="#projets"> Projets</a> <a href="#contact"> Contact</a> </nav>
@@ -26,33 +26,42 @@
     <div class="a-propos">
         <div class="titres">
             <h4 id="a-propos" >A propos</h4>
-            <p>Passionnée de cuisine et d'écologie, j'adore aussi me balader dans la nature, faire de l'escalade et de la photographie. </p>
+            <p>La création est une partie importante de ma vie. J'aime assembler des formes, des couleurs et des typographies jusqu'à trouver la composition idéale. Peu importe le support : que ça soit des collages ou des dessins du papier ou encore des affiches ou des maquettes de site internet crées avec des outils digitaux, mon plaisir est le même ! 
+            <br>
+            <br>
+            Je suis graphiste et UI designer depuis <span id="numberOfYears">3</span> ans. Au quotidien je travaille sur la suite Adobe (Illustrator, Photoshop, InDesign et surtout Adobe Xd. En quelques semaines j'ai aussi appris à faire des animations vidéo sur After Effect.
+            <br>
+            <br>
+            En dehors de cela, je fais des photos de fleurs avec un objectif macro, de l'escalade et de la cuisine. Je suis sensible à tout ce qui touche à l'écologie et la nature. 
+                 <br>
+            <br>
+            </p>
         </div>
     </div>
-    <a href="les-parcelles.html">
-        <div class="les-parcelles" id="projets">
+    <a href="nature-bouture.html">
+        <div class="nature-bouture" id="projets">
             <div class="image"></div>
             <div class="overlay"> <!-- overlay : class pour les titres-->
-                <h4 id="apparition"><span class="plus">+&nbsp;</span><span class="encadre">Les parcelles</span></h4>
-                <h5 id="apparition2"><span>Espace&nbsp;de&nbsp;coworking</span></h5> 
+                <h4 id="apparition"><span class="plus">+&nbsp;</span><span class="encadre">Nature Bouture</span></h4>
+                <h5 id="apparition2"><span>Boutique&nbsp;de&nbsp;plantes&nbsp;en&nbsp;ligne</span></h5> 
             </div>
         </div>
     </a>
-    <a href="chateau-grand-peyrou.html">
-        <div class="chateau-grand-peyrou">
+    <a href="terre-gourmande.html">
+        <div class="terre-gourmande">
             <div class="image"></div>
             <div class="overlay">
-                <h4><span class="plus">+&nbsp;</span><span class="encadre">Château&nbsp;Grand&nbsp;Peyrou</span></h4>
-                <h5><span>Vins</span></h5> 
+                <h4><span class="plus">+&nbsp;</span><span class="encadre">Terre&nbsp;Gourmande</span></h4>
+                <h5><span>Tourisme&nbsp;&&nbsp;découvertes</span></h5> 
             </div>
         </div>
     </a>
-    <a href="chateau-lejay.html">
-        <div class="chateau-lejay">
+    <a href="green-life.html">
+        <div class="green-life">
             <div class="image"></div>
             <div class="overlay">
-                <h4><span class="plus">+&nbsp;</span><span class="encadre">Château&nbsp;Lejay</span></h4>
-                <h5><span>Crème&nbsp;de&nbsp;Cassis</span></h5> 
+                <h4><span class="plus">+&nbsp;</span><span class="encadre">GreenLife</span></h4>
+                <h5><span>La&nbsp;santé&nbsp;par&nbsp;les&nbsp;plantes</span></h5> 
             </div>
         </div>
     </a>
@@ -86,22 +95,31 @@
         
         <a id="facebook" href="https://www.facebook.com/ChloeImagine/"> <img src="images/fb.svg"></a>
     </div>
+    
+
+    <script type="text/javascript" src="js/date.js"></script>    
+
     <script type="text/javascript">
+
+        
+        function script() {
+            $("#numberOfYears").text(calculateAge(new Date(2016,06,01)))
+        }
 
         //stop animation fleche "haut" au hover
         (function( $ ) {
-	$(function() {
-		$( "#stop" ).hover(function() {
-			$( "#animated" ).addClass( "off" );
-		});
-		$( "#start" ).hover(function() {
-			$( "#animated" ).removeClass( "off" );
-		});
-	});
+            $(function() {
+                $( "#stop" ).hover(function() {
+                    $( "#animated" ).addClass( "off" );
+                });
+                $( "#start" ).hover(function() {
+                    $( "#animated" ).removeClass( "off" );
+                });
+            });
 
-})( jQuery );
+        })( jQuery );
 
-        apparition textes les parcelles
+        //  apparition textes les parcelles
         $("#apparition").hide();
         $(window).scroll(function () {
             if ($(window).scrollTop() > 1200) {
@@ -122,9 +140,10 @@
         });
         
     </script>
-    <script type="text/javascript" src="js/imgsuitsouris.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script type="text/javascript" src="js/stophorizontalscroll.js"></script>
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+            <script type="text/javascript" src="js/imgsuitsouris.js"></script>
+
+
 </body>
 
 </html>

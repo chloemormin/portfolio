@@ -1,3 +1,6 @@
+
+@import url('./position-body-styles.css');
+
 @media screen and (max-width:1070px) and (min-width:801px){
     
     .hero {
@@ -30,7 +33,7 @@
 /*******                   A PROPOS                    **********/    
     
     .a-propos{
-        height:870px;
+        height:1000px;
     }
     
     .a-propos h4 {
@@ -45,9 +48,9 @@
     }
     
     
-/*******                  LES PARCELLES                       **********/    
+/*******                  NATURE BOUTURE                      **********/    
     
-    .les-parcelles {
+    .nature-bouture {
         margin-top:-32em;
         margin-left:-60%;
         width:180%;
@@ -56,44 +59,44 @@
 
     }
     
-    .les-parcelles h4{
+    .nature-bouture h4{
         margin-left:70%;
         font-size: 2em;
         margin-top:-6em;
     }
     
-     .les-parcelles h5{
+     .nature-bouture h5{
         margin-left:70%;
     }
     
-/*******                  GRAND PEYROU                       **********/    
+/*******                  TERRE GOURMANDE                       **********/    
     
-    .chateau-grand-peyrou {
+    .terre-gourmande {
         width:125%;
         height:800px;
         margin-bottom:20em;
     }
     
-    .chateau-grand-peyrou h4 {
+    .terre-gourmande h4 {
         margin-top:-7em
     }
     
-/*******                  LEJAY                       **********/    
+/*******                  GREEN LIFE                      **********/    
     
-    .chateau-lejay {
+    .green-life {
         margin-top:-36em;
         margin-left:-60%;
-        width:200%;
+        width:180%;
         height:900px;
         margin-bottom:20em;
     }
     
-    .chateau-lejay h4{
+    .green-life h4{
         margin-left:75%;
         margin-top:-10em
     }
     
-    .chateau-lejay h5{
+    .green-life h5{
         margin-left:75%;
     }
     
@@ -196,9 +199,9 @@
         margin-left:2.5em;
     }
     
-/*******                  LES PARCELLES                       **********/    
+/*******                  NATURE BOUTURE                      **********/    
     
-    .les-parcelles {
+    .nature-bouture {
         margin-top:-32em;
         margin-left:-60%;
         width:230%;
@@ -207,43 +210,43 @@
     }
     
     
-    .les-parcelles h4{
+    .nature-bouture h4{
         margin-left:60%;
         font-size: 2em;
         margin-top:-17.5em;
     }
     
-     .les-parcelles h5{
+     .nature-bouture h5{
         margin-left:60%;
     }
     
-/*******                  GRAND PEYROU                       **********/    
+/*******                  TERRE GOURMANDE                       **********/    
     
-    .chateau-grand-peyrou {
+    .terre-gourmande {
         width:125%;
         height: 1100px;
     }
     
-    .chateau-grand-peyrou h4 {
+    .terre-gourmande h4 {
         margin-top:-20em;
         margin-left:-5%;
     }
     
-/*******                  LEJAY                       **********/    
+/*******                  GREEN LIFE                      **********/    
     
-    .chateau-lejay {
+    .green-life {
         margin-top:-41em;
         margin-left:-60%;
         width:200%;
     }
     
-    .chateau-lejay h4{
+    .green-life h4{
         margin-top:-18em;
         margin-left:75%;
         display:inline-block;
     }
     
-    .chateau-lejay h5{
+    .green-life h5{
         margin-left:75%;
     }
     

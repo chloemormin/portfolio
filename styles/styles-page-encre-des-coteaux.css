@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
-body {
-    overflow-x: hidden;
-}
+@import url('./position-body-styles.css');
 
 
 /*******                  PAGE ENCRE DES COTEAUX                 **********/

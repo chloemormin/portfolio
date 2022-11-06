@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+@import url('./position-body-styles.css');
+
+/*******                  PAGE GREEN LIFE                **********/
+
+.hero-green-life {
+    background-image: url("../images/fondpastel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-green-life {
+    height: 450px;
+}
+}
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-green-life {
+    height: 400px;
+}
+}
+
+.placement_titres{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    margin-right:2em;
+}
+
+.hero-green-life h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-green-life h1 {
+        font-size: 2rem;
+    }
+    }
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-green-life h1 {
+    padding-top: -3em;
+    font-size: 1.8em;
+}
+}
+
+.hero-green-life h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+@media screen and (max-width:1070px) and (min-width:601px){
+    .hero-green-life h2 {
+    font-size: 1.8rem;
+    }     
+}
+
+
+@media screen and (max-width:600px) and (min-width:320px){
+    .hero-green-life h2 {
+    font-size: 1.5em;
+}
+}
+
+img["../images/retour2.png"] {
+    z-index: 1;
+    padding-bottom: 5px;
+}
+
+.hero-green-life a {
+    z-index: 1;
+    margin: 20px;
+    display: block;
+    float: left;
+    font-family: 'lato', sans-serif;
+    font-size: 0.8em;
+    height: 30px;
+}
+
+.hero-green-life a:hover {
+    text-decoration: underline;
+}
+
+.diagonale {
+    background-color: #f5eeea;
+    transform: rotate(-5deg);
+    width: 130%;
+    min-height:25em;
+    margin-left: -15%;
+    margin-top: -12em;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    z-index:0;
+
+}
+
+@media screen and (max-width:1200px) and (min-width:320px){
+    .diagonale {
+    margin-top: -12em;
+    height:15em;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:551px){
+    .diagonale {
+    margin-top: -12em;
+    max-height:8em;
+    }
+}
+
+.centre {
+    margin-left: 23%;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin-top:-25em;
+    position:relative;
+    z-index:1;
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    .centre {
+        width:100%;
+        margin-left: 10%;
+}
+}
+
+img[src="images/green-life/green-life-top.png"] {
+    margin-top:4em;
+    width:100%;
+    height:auto;
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/green-life/green-life-top.png"] {
+        width:80%;
+}
+}
+
+section p {
+    font-family: 'Lato', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width:1200px) and (min-width:320px){
+    section p{
+    font-size: 1em;
+    }
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    section p {
+        margin:0 2.5em;
+        text-align:center;
+        width:80%;
+        margin-left:-0.5em;
+}
+}
+
+img[src="images/green-life/green-life-mock-up.png"]{
+    padding:2em;
+    width:100%;
+
+}
+
+@media screen and (max-width:1000px) and (min-width:551px){
+    img[src="images/green-life/green-life-mock-up.png"] {
+    width:80%;
+    margin-left:15%;
+}
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/green-life/green-life-mock-up.png"] {
+    width:90%;
+    margin-left:-5%;
+}
+}
+
+section p a {
+    font-style: italic;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    padding-top:5em;
+    padding-bottom:2em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    text-align:center;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:320px){
+    p{
+    font-size: 1em;
+    padding-top:2em;
+    }
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    p {
+        text-align:center;
+        width:80%;
+        margin-left:-0.5em;
+}
+}
+
+
+img[src="images/green-life/green-life-maquette.png"]{
+    padding:2em;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.13));
+}
+
+@media screen and (max-width:1000px) and (min-width:551px){
+    img[src="images/green-life/green-life-maquette.png"] {
+    width:50%;
+}
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/green-life/green-life-maquette.png"] {
+            width:80%;
+
+}
+}
+
+/*   ROW = IMAGES COTE À COTE EN COLONNES
+.row{
+    padding-bottom:3em;
+}
+
+
+@media screen and (max-width:1000px) and (min-width:320px){
+    .row {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+}
+
+img[src="images/terre-gourmande/les-actus.jpg"]{
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width:1001px){
+    img[src="images/terre-gourmande/les-actus.jpg"] {
+        width:37%;
+        height:auto;
+}
+}
+
+@media screen and (min-width:1001px){
+     img[src="images/terre-gourmande/winefunding.jpg"] {
+        width:50%;
+        height:100%;
+}
+}
+
+@media screen and (max-width:1000px) and (min-width:551px){
+    img[src="images/terre-gourmande/les-actus.jpg"], img[src="images/terre-gourmande/winefunding.jpg"] {
+        width:80%;
+        height:auto;
+        margin-left:3em;
+}
+}
+
+@media screen and (max-width:550px) and (min-width:320px){
+    img[src="images/terre-gourmande/les-actus.jpg"], img[src="images/terre-gourmande/winefunding.jpg"] {
+        width:80%;
+        height:auto;
+}
+}
+*/
+
+/*******                  FOOTER                       **********/
+
+.footer {
+    background-color: #434343;
+     height: 100px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*change le sens des parametres align-items et justify-content*/
+}
+
+.position{
+    width:10px;
+    height:auto;
+    position:relative;
+    display:flex;
+    align-items: center;
+    margin-top:1em;
+
+}
+
+.footer #remonter {
+    opacity:0;
+    padding:1em;
+    margin-top:0.5em;
+    position:absolute;
+    left:calc( ( 100% - 85px ) / 2 );
+}
+
+.footer #remonter:hover {
+    opacity:1;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    padding:1em;
+}
+
+
+.arrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 16px 9px;
+    border-color: transparent transparent white transparent;
+}
+
+.animated{
+    margin-top:-1.5em;
+    position:absolute;
+    left:calc( ( 100% - 18px ) / 2 );
+    animation: myanim 2s linear infinite;
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate;
+    -webkit-animation-play-state: running
+}
+
+.animated:hover{
+    animation: stop;
+}
+
+.animated.off {
+		-moz-animation-name: none;
+	-webkit-animation-name: none;
+	-ms-animation-name: none;
+		animation-name: none;	
+	}
+
+/* Code for old Chrome, Safari and Opera */
+@-webkit-keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+/* Standard syntax */
+@keyframes myanim {
+    from {top: 0px;}
+    to {top: 10px;}
+}
+
+img[src="images/fb.svg"] {
+    z-index: 1;
+    width: 22%;
+    height: 100%;
+}
+
+.footer #facebook {
+    margin-right: -3em;
+    margin-top: -1.5em;
+    align-self: flex-end;
+}
+
+@media screen and (max-width:1070px) and (min-width:800px){
+    
+    .footer{
+        height:70px;
+    }
+    }
+
+@media screen and (max-width:799px) and (min-width:550px){
+    .footer{
+        height:70px;
+    }
+    }
+
+@media screen and (max-width:549px) and (min-width:320px){
+
+    .footer{
+        height:50px;
+        margin-top:-1em;
+    }
+    
+    .footer #remonter {
+    display:none;
+}
+    
+    .animated{
+        display:none;
+}
+    #facebook{
+        display:none;
+    }
+    }

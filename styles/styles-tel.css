@@ -1,11 +1,5 @@
-html{
-    min-width:320px;
-    /****    a chercher, ne marche pas     ******/
-}
 
-body {
-    overflow-x: hidden;
-}
+@import url('./position-body-styles.css');
 
 @media screen and (max-width:550px) and (min-width:320px){
     
@@ -50,7 +44,7 @@ body {
     }
     
     .a-propos {
-        height:900px;
+        height:1050px;
     }
     
     .a-propos h4 {
@@ -70,50 +64,50 @@ body {
     
     /*******                     PROJETS                       **********/
 
-/*******                  LES PARCELLES                       **********/
+/*******                  NATURE BOUTURE                         **********/
     
-    .les-parcelles {
+    .nature-bouture {
         margin-top:-34em;
         margin-left:-30%;
-        width:230%;
+        width:180%;
         height:500px;
 
     }
     
-     .les-parcelles h4 {
+     .nature-bouture h4 {
         font-size: 1.5em;
         margin-left:-4em;
         margin-top:-6em;
     }
     
-    .les-parcelles h5 {
+    .nature-bouture h5 {
         font-size: 1.4em;
         margin-left:-4.5em;
     }
     
-/*******                  GRAND PEYROU                       **********/    
+/*******                  TERRE GOURMANDE                      **********/    
     
-    .chateau-grand-peyrou {
+    .terre-gourmande {
         margin-top:-10em;
         margin-left:-32%;
         width:135%;
         height:400px;
     }
     
-      .chateau-grand-peyrou h4 {
+      .terre-gourmande h4 {
         font-size: 1.5em;
         margin-left:2em;
         margin-top:-0em;
       }
     
-     .chateau-grand-peyrou h5 {
+     .terre-gourmande h5 {
         font-size: 1.4em;
         margin-left:2.5em;
     }
     
-/*******                  LEJAY                       **********/    
+/*******                  GREEN LIFE                       **********/    
     
-    .chateau-lejay {
+    .green-life {
         margin-top:-3em;
         margin-left:-35%;
         width:160%;
@@ -121,13 +115,13 @@ body {
 
         }
     
-    .chateau-lejay h4 {
+    .green-life h4 {
         font-size: 1.5em;
         margin-left:2em;
         margin-top:-0em;
     }
     
-    .chateau-lejay h5 {
+    .green-life h5 {
         font-size: 1.4em;
         margin-left:2.5em;
     }
