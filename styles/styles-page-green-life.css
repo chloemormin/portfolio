@@ -31,6 +31,12 @@
     margin-right:2em;
 }
 
+@media screen and (max-width:600px) and (min-width:320px){
+    .placement_titres {
+    margin-right: 15%;
+
+}
+    
 .hero-green-life h1 {
     font-family: 'Lato', sans-serif;
     font-size: 2em;
@@ -300,115 +306,21 @@ img[src="images/terre-gourmande/les-actus.jpg"]{
     /*change le sens des parametres align-items et justify-content*/
 }
 
-.position{
-    width:10px;
-    height:auto;
-    position:relative;
-    display:flex;
-    align-items: center;
-    margin-top:1em;
 
-}
-
-.footer #remonter {
-    opacity:0;
-    padding:1em;
-    margin-top:0.5em;
-    position:absolute;
-    left:calc( ( 100% - 85px ) / 2 );
-}
-
-.footer #remonter:hover {
-    opacity:1;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9em;
-    font-weight: 100;
-    padding:1em;
-}
-
-
-.arrow{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 9px 16px 9px;
-    border-color: transparent transparent white transparent;
-}
-
-.animated{
-    margin-top:-1.5em;
-    position:absolute;
-    left:calc( ( 100% - 18px ) / 2 );
-    animation: myanim 2s linear infinite;
-    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-    animation-direction: alternate;
-    -webkit-animation-play-state: running
-}
-
-.animated:hover{
-    animation: stop;
-}
-
-.animated.off {
-		-moz-animation-name: none;
-	-webkit-animation-name: none;
-	-ms-animation-name: none;
-		animation-name: none;	
-	}
-
-/* Code for old Chrome, Safari and Opera */
-@-webkit-keyframes myanim {
-    from {top: 0px;}
-    to {top: 10px;}
-}
-
-/* Standard syntax */
-@keyframes myanim {
-    from {top: 0px;}
-    to {top: 10px;}
-}
 
 img[src="images/fb.svg"] {
     z-index: 1;
-    width: 22%;
+    width: 50%;
     height: 100%;
 }
 
-.footer #facebook {
-    margin-right: -3em;
-    margin-top: -1.5em;
-    align-self: flex-end;
+.footer .instagram {
+        width: 40px;
+        height: 100%;
 }
 
-@media screen and (max-width:1070px) and (min-width:800px){
-    
-    .footer{
-        height:70px;
-    }
-    }
+.footer .linkedin {
+      width: 35px;
+        height: 100%;
 
-@media screen and (max-width:799px) and (min-width:550px){
-    .footer{
-        height:70px;
-    }
-    }
-
-@media screen and (max-width:549px) and (min-width:320px){
-
-    .footer{
-        height:50px;
-        margin-top:-1em;
-    }
-    
-    .footer #remonter {
-    display:none;
 }
-    
-    .animated{
-        display:none;
-}
-    #facebook{
-        display:none;
-    }
-    }

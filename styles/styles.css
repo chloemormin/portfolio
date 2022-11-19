@@ -354,7 +354,7 @@ img[src="images/fond-plus2.png"] {
         margin-top:-16em;
         transform:rotate(-3deg);
         font-size: 2em;
-        margin-left: -10%;
+        margin-right: -15%;
     }
 }
 
@@ -419,7 +419,7 @@ img[src="images/fond-plus2.png"] {
     .nature-bouture h5{
         transform:rotate(-3deg);
         font-size: 1.6em;
-        margin-left: -10%;
+        margin-right: -15%;
     }
 }
 
